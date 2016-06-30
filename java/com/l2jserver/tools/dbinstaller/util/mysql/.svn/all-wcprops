@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/tools/dbinstaller/util/mysql
+END
+DBDumper.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/tools/dbinstaller/util/mysql/DBDumper.java
+END
+ScriptExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/tools/dbinstaller/util/mysql/ScriptExecutor.java
+END
+MySqlConnect.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/tools/dbinstaller/util/mysql/MySqlConnect.java
+END

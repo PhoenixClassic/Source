@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/network/clientpackets
+END
+RequestServerList.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/network/clientpackets/RequestServerList.java
+END
+AuthGameGuard.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/network/clientpackets/AuthGameGuard.java
+END
+RequestServerLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/network/clientpackets/RequestServerLogin.java
+END
+L2LoginClientPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/network/clientpackets/L2LoginClientPacket.java
+END
+RequestAuthLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/network/clientpackets/RequestAuthLogin.java
+END

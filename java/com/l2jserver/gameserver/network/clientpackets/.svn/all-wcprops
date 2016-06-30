@@ -1,0 +1,1673 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/803/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets
+END
+RequestPledgeExtendedInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeExtendedInfo.java
+END
+RequestFortressSiegeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestFortressSiegeInfo.java
+END
+RequestAskJoinPartyRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAskJoinPartyRoom.java
+END
+RequestFriendList.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestFriendList.java
+END
+RequestWithdrawPartyRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestWithdrawPartyRoom.java
+END
+RequestPetitionCancel.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPetitionCancel.java
+END
+RequestExMPCCShowPartyMembersInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExMPCCShowPartyMembersInfo.java
+END
+RequestShortCutReg.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestShortCutReg.java
+END
+RequestWithdrawalPledge.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestWithdrawalPledge.java
+END
+DlgAnswer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/DlgAnswer.java
+END
+SendBypassBuildCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SendBypassBuildCmd.java
+END
+RequestBuySellUIClose.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBuySellUIClose.java
+END
+RequestTutorialPassCmdToServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestTutorialPassCmdToServer.java
+END
+RequestHennaItemRemoveInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestHennaItemRemoveInfo.java
+END
+RequestPledgeReorganizeMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeReorganizeMember.java
+END
+RequestRecipeBookDestroy.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeBookDestroy.java
+END
+RequestSSQStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSSQStatus.java
+END
+RequestChangeBookMarkSlot.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestChangeBookMarkSlot.java
+END
+RequestBookMarkSlotInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBookMarkSlotInfo.java
+END
+DummyPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/DummyPacket.java
+END
+RequestPartyMatchConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPartyMatchConfig.java
+END
+RequestPledgeCrest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeCrest.java
+END
+RequestOustPartyMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestOustPartyMember.java
+END
+TradeDone.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/TradeDone.java
+END
+RequestTutorialClientEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestTutorialClientEvent.java
+END
+BrEventRankerList.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/BrEventRankerList.java
+END
+RequestPostItemList.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPostItemList.java
+END
+RequestSaveBookMarkSlot.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSaveBookMarkSlot.java
+END
+AllyLeave.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AllyLeave.java
+END
+ValidatePosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/ValidatePosition.java
+END
+RequestQuestAbort.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestQuestAbort.java
+END
+RequestExCubeGameReadyAnswer.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExCubeGameReadyAnswer.java
+END
+RequestAllCastleInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAllCastleInfo.java
+END
+RequestHennaItemInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestHennaItemInfo.java
+END
+RequestChangeNicknameColor.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestChangeNicknameColor.java
+END
+AllyDismiss.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AllyDismiss.java
+END
+RequestPledgeMemberPowerInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeMemberPowerInfo.java
+END
+RequestChangePartyLeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/207/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestChangePartyLeader.java
+END
+RequestSiegeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSiegeInfo.java
+END
+RequestBuyItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBuyItem.java
+END
+RequestOustPledgeMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestOustPledgeMember.java
+END
+RequestBrBuyProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBrBuyProduct.java
+END
+RequestHennaItemList.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestHennaItemList.java
+END
+ExGetOnAirShip.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/ExGetOnAirShip.java
+END
+MoveWithDelta.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/MoveWithDelta.java
+END
+ProtocolVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/ProtocolVersion.java
+END
+RequestBrGamePoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBrGamePoint.java
+END
+RequestEnchantItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestEnchantItem.java
+END
+RequestModifyBookMarkSlot.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestModifyBookMarkSlot.java
+END
+RequestStartPledgeWar.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestStartPledgeWar.java
+END
+RequestSeedPhase.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSeedPhase.java
+END
+RequestHennaEquip.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestHennaEquip.java
+END
+RequestEx2ndPasswordVerify.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestEx2ndPasswordVerify.java
+END
+RequestSurrenderPledgeWar.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSurrenderPledgeWar.java
+END
+RequestPostAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/521/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPostAttachment.java
+END
+RequestWithDrawPremiumItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestWithDrawPremiumItem.java
+END
+RequestAllyCrest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAllyCrest.java
+END
+RequestRecipeShopMakeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeShopMakeInfo.java
+END
+CannotMoveAnymore.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/CannotMoveAnymore.java
+END
+RequestSetAllyCrest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSetAllyCrest.java
+END
+RequestAcquireSkill.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAcquireSkill.java
+END
+RequestExEnchantSkillInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExEnchantSkillInfo.java
+END
+BypassUserCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/BypassUserCmd.java
+END
+MoveBackwardToLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/MoveBackwardToLocation.java
+END
+RequestPrivateStoreManageSell.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPrivateStoreManageSell.java
+END
+SendWareHouseDepositList.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SendWareHouseDepositList.java
+END
+RequestSkillList.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSkillList.java
+END
+RequestPartyMatchDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPartyMatchDetail.java
+END
+RequestBrProductInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBrProductInfo.java
+END
+RequestExSetPledgeCrestLarge.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExSetPledgeCrestLarge.java
+END
+UseItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/786/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/UseItem.java
+END
+RequestDismissAlly.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDismissAlly.java
+END
+RequestRecipeBookOpen.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeBookOpen.java
+END
+RequestExCancelEnchantItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExCancelEnchantItem.java
+END
+RequestRestartPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/803/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRestartPoint.java
+END
+RequestBrProductList.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/798/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBrProductList.java
+END
+RequestRecipeShopManageQuit.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeShopManageQuit.java
+END
+SetPrivateStoreMsgBuy.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SetPrivateStoreMsgBuy.java
+END
+RequestGetBossRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/662/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGetBossRecord.java
+END
+RequestSetCrop.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSetCrop.java
+END
+MultiSellChoose.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/638/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/MultiSellChoose.java
+END
+RequestPrivateStoreSell.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPrivateStoreSell.java
+END
+RequestPledgeWarList.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeWarList.java
+END
+RequestPledgePower.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgePower.java
+END
+RequestGetItemFromPet.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGetItemFromPet.java
+END
+RequestExEnchantSkillInfoDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExEnchantSkillInfoDetail.java
+END
+RequestExOustFromMPCC.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExOustFromMPCC.java
+END
+RequestExCubeGameChangeTeam.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExCubeGameChangeTeam.java
+END
+RequestJoinSiege.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestJoinSiege.java
+END
+RequestProcureCropList.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestProcureCropList.java
+END
+RequestPetition.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPetition.java
+END
+AnswerPartyLootModification.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AnswerPartyLootModification.java
+END
+RequestPetUseItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPetUseItem.java
+END
+SetPrivateStoreWholeMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SetPrivateStoreWholeMsg.java
+END
+AttackRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AttackRequest.java
+END
+RequestPledgeSetMemberPowerGrade.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeSetMemberPowerGrade.java
+END
+RequestRestart.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/786/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRestart.java
+END
+MoveToLocationInAirShip.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/MoveToLocationInAirShip.java
+END
+RequestWriteHeroWords.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestWriteHeroWords.java
+END
+RequestBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBlock.java
+END
+RequestDuelAnswerStart.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDuelAnswerStart.java
+END
+RequestFortressMapInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestFortressMapInfo.java
+END
+RequestHennaRemove.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestHennaRemove.java
+END
+GameGuardReply.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/GameGuardReply.java
+END
+Action.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/Action.java
+END
+AnswerCoupleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/668/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AnswerCoupleAction.java
+END
+RequestSellItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSellItem.java
+END
+RequestPartyMatchList.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPartyMatchList.java
+END
+RequestCancelPostAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/521/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestCancelPostAttachment.java
+END
+RequestVoteNew.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestVoteNew.java
+END
+SendWareHouseWithDrawList.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SendWareHouseWithDrawList.java
+END
+RequestActionUse.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/763/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestActionUse.java
+END
+RequestKeyMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestKeyMapping.java
+END
+RequestPrivateStoreBuy.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPrivateStoreBuy.java
+END
+RequestExFriendListExtended.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExFriendListExtended.java
+END
+RequestExEnchantSkillUntrain.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExEnchantSkillUntrain.java
+END
+RequestAnswerFriendInvite.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAnswerFriendInvite.java
+END
+RequestCursedWeaponLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestCursedWeaponLocation.java
+END
+RequestGiveItemToPet.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGiveItemToPet.java
+END
+RequestSiegeAttackerList.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSiegeAttackerList.java
+END
+RequestAnswerJoinPledge.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAnswerJoinPledge.java
+END
+RequestConfirmSiegeWaitingList.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestConfirmSiegeWaitingList.java
+END
+RequestOlympiadMatchList.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestOlympiadMatchList.java
+END
+RequestExEnchantSkillSafe.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExEnchantSkillSafe.java
+END
+RequestConfirmGemStone.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestConfirmGemStone.java
+END
+RequestExShowContactList.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExShowContactList.java
+END
+RequestDominionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDominionInfo.java
+END
+RequestExFishRanking.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExFishRanking.java
+END
+RequestPVPMatchRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPVPMatchRecord.java
+END
+RequestExAcceptJoinMPCC.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExAcceptJoinMPCC.java
+END
+AbstractRefinePacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/240/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AbstractRefinePacket.java
+END
+RequestShortCutDel.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestShortCutDel.java
+END
+RequestExEnchantItemAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExEnchantItemAttribute.java
+END
+RequestAllAgitInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAllAgitInfo.java
+END
+RequestQuestList.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestQuestList.java
+END
+FinishRotating.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/FinishRotating.java
+END
+RequestOlympiadObserverEnd.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestOlympiadObserverEnd.java
+END
+RequestDismissPartyRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDismissPartyRoom.java
+END
+CharacterCreate.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/657/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/CharacterCreate.java
+END
+CharacterSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/CharacterSelect.java
+END
+RequestExAddContactToContactList.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExAddContactToContactList.java
+END
+RequestExTryToPutEnchantTargetItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExTryToPutEnchantTargetItem.java
+END
+RequestDuelSurrender.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDuelSurrender.java
+END
+RequestSaveInventoryOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSaveInventoryOrder.java
+END
+RequestRefine.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/280/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRefine.java
+END
+RequestBBSwrite.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBBSwrite.java
+END
+RequestSaveKeyMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/238/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSaveKeyMapping.java
+END
+RequestCursedWeaponList.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestCursedWeaponList.java
+END
+RequestRefundItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRefundItem.java
+END
+RequestShowMiniMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestShowMiniMap.java
+END
+RequestGMCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGMCommand.java
+END
+RequestAllyInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAllyInfo.java
+END
+RequestRecipeShopMakeItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeShopMakeItem.java
+END
+RequestPetitionFeedback.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPetitionFeedback.java
+END
+RequestDeleteSentPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDeleteSentPost.java
+END
+RequestJoinAlly.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestJoinAlly.java
+END
+RequestReceivedPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestReceivedPost.java
+END
+RequestTeleportBookMark.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestTeleportBookMark.java
+END
+RequestReceivedPostList.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestReceivedPostList.java
+END
+RequestRecipeShopManagePrev.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeShopManagePrev.java
+END
+RequestSetPledgeCrest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSetPledgeCrest.java
+END
+MoveToLocationAirShip.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/MoveToLocationAirShip.java
+END
+CharacterRestore.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/CharacterRestore.java
+END
+RequestCrystallizeItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestCrystallizeItem.java
+END
+RequestExDeleteContactFromContactList.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExDeleteContactFromContactList.java
+END
+RequestFriendDel.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestFriendDel.java
+END
+RequestConfirmCancelItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/240/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestConfirmCancelItem.java
+END
+RequestDispel.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDispel.java
+END
+RequestHennaRemoveList.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestHennaRemoveList.java
+END
+RequestPledgeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeInfo.java
+END
+RequestGmList.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGmList.java
+END
+RequestJoinPledge.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestJoinPledge.java
+END
+RequestAnswerJoinAlly.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAnswerJoinAlly.java
+END
+RequestGiveNickName.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGiveNickName.java
+END
+RequestJoinParty.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/763/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestJoinParty.java
+END
+RequestPackageSendableItemList.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPackageSendableItemList.java
+END
+ObserverReturn.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/ObserverReturn.java
+END
+RequestSentPostList.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSentPostList.java
+END
+RequestGotoLobby.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGotoLobby.java
+END
+RequestSetSeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSetSeed.java
+END
+RequestGetOffVehicle.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGetOffVehicle.java
+END
+RequestAllFortressInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAllFortressInfo.java
+END
+RequestUnEquipItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestUnEquipItem.java
+END
+RequestShowBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestShowBoard.java
+END
+AnswerJoinPartyRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AnswerJoinPartyRoom.java
+END
+RequestAcquireSkillInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAcquireSkillInfo.java
+END
+SetPrivateStoreMsgSell.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SetPrivateStoreMsgSell.java
+END
+RequestAnswerJoinParty.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAnswerJoinParty.java
+END
+RequestRecipeShopMessageSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeShopMessageSet.java
+END
+RequestResetNickname.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestResetNickname.java
+END
+Appearing.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/Appearing.java
+END
+RequestRecipeItemMakeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeItemMakeInfo.java
+END
+L2GameClientPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/240/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/L2GameClientPacket.java
+END
+RequestTargetCanceld.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestTargetCanceld.java
+END
+NewCharacter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/NewCharacter.java
+END
+AnswerTradeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AnswerTradeRequest.java
+END
+RequestConfirmRefinerItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestConfirmRefinerItem.java
+END
+RequestGetOnVehicle.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestGetOnVehicle.java
+END
+RequestExRemoveItemAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExRemoveItemAttribute.java
+END
+AuthLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AuthLogin.java
+END
+RequestItemList.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestItemList.java
+END
+RequestExEnchantSkill.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExEnchantSkill.java
+END
+RequestBypassToServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBypassToServer.java
+END
+RequestLinkHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestLinkHtml.java
+END
+RequestPledgeSetAcademyMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeSetAcademyMaster.java
+END
+RequestInfoItemAuction.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestInfoItemAuction.java
+END
+RequestExitPartyMatchingWaitingRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExitPartyMatchingWaitingRoom.java
+END
+RequestRejectPostAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRejectPostAttachment.java
+END
+RequestDeleteBookMarkSlot.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDeleteBookMarkSlot.java
+END
+RequestPrivateStoreQuitSell.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPrivateStoreQuitSell.java
+END
+RequestManorList.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestManorList.java
+END
+TradeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/TradeRequest.java
+END
+RequestRecipeItemMakeSelf.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeItemMakeSelf.java
+END
+RequestReplyStartPledgeWar.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestReplyStartPledgeWar.java
+END
+RequestExMagicSkillUseGround.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExMagicSkillUseGround.java
+END
+RequestEx2ndPasswordCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestEx2ndPasswordCheck.java
+END
+RequestExOlympiadMatchListRefresh.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExOlympiadMatchListRefresh.java
+END
+RequestReplySurrenderPledgeWar.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestReplySurrenderPledgeWar.java
+END
+RequestDuelStart.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDuelStart.java
+END
+RequestPledgePowerGradeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgePowerGradeList.java
+END
+RequestRecipeShopManageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeShopManageList.java
+END
+RequestPrivateStoreManageBuy.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPrivateStoreManageBuy.java
+END
+RequestDeleteMacro.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDeleteMacro.java
+END
+SetPrivateStoreListSell.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SetPrivateStoreListSell.java
+END
+RequestRecordInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecordInfo.java
+END
+RequestJoinDominionWar.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestJoinDominionWar.java
+END
+RequestSendFriendMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSendFriendMsg.java
+END
+RequestBuySeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBuySeed.java
+END
+SnoopQuit.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SnoopQuit.java
+END
+RequestExAskJoinMPCC.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExAskJoinMPCC.java
+END
+RequestPCCafeCouponUse.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPCCafeCouponUse.java
+END
+RequestSiegeDefenderList.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSiegeDefenderList.java
+END
+RequestPackageSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPackageSend.java
+END
+RequestExPledgeCrestLarge.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExPledgeCrestLarge.java
+END
+RequestStopPledgeWar.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestStopPledgeWar.java
+END
+RequestPetGetItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPetGetItem.java
+END
+RequestFriendInvite.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestFriendInvite.java
+END
+RequestRefineCancel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRefineCancel.java
+END
+CharacterDelete.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/CharacterDelete.java
+END
+RequestMagicSkillUse.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestMagicSkillUse.java
+END
+RequestBrRecentProductList.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBrRecentProductList.java
+END
+RequestTutorialLinkHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestTutorialLinkHtml.java
+END
+EndScenePlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/EndScenePlayer.java
+END
+RequestDropItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDropItem.java
+END
+RequestPledgeMemberInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeMemberInfo.java
+END
+RequestPreviewItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPreviewItem.java
+END
+RequestAutoSoulShot.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestAutoSoulShot.java
+END
+RequestPrivateStoreQuitBuy.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPrivateStoreQuitBuy.java
+END
+RequestSentPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSentPost.java
+END
+RequestExTryToPutEnchantSupportItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExTryToPutEnchantSupportItem.java
+END
+RequestBidItemAuction.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestBidItemAuction.java
+END
+RequestOustFromPartyRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestOustFromPartyRoom.java
+END
+RequestPledgeMemberList.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPledgeMemberList.java
+END
+RequestExEnchantSkillRouteChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExEnchantSkillRouteChange.java
+END
+RequestDestroyItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDestroyItem.java
+END
+CannotMoveAnymoreInVehicle.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/CannotMoveAnymoreInVehicle.java
+END
+StartRotating.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/StartRotating.java
+END
+EnterWorld.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/763/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/EnterWorld.java
+END
+RequestSendPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestSendPost.java
+END
+RequestMoveToLocationInVehicle.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestMoveToLocationInVehicle.java
+END
+RequestMakeMacro.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestMakeMacro.java
+END
+RequestExRqItemLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExRqItemLink.java
+END
+RequestChangePetName.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestChangePetName.java
+END
+Logout.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/786/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/Logout.java
+END
+SetPrivateStoreListBuy.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/SetPrivateStoreListBuy.java
+END
+Attack.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/207/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/Attack.java
+END
+Say2.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/763/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/Say2.java
+END
+RequestWithDrawalParty.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestWithDrawalParty.java
+END
+RequestTutorialQuestionMark.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestTutorialQuestionMark.java
+END
+RequestEx2ndPasswordReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestEx2ndPasswordReq.java
+END
+RequestExChangeName.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestExChangeName.java
+END
+RequestDeleteReceivedPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestDeleteReceivedPost.java
+END
+RequestPartyLootModification.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/207/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestPartyLootModification.java
+END
+AddTradeItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/AddTradeItem.java
+END
+RequestConfirmTargetItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestConfirmTargetItem.java
+END
+RequestReplyStopPledgeWar.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestReplyStopPledgeWar.java
+END
+RequestListPartyMatchingWaitingRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestListPartyMatchingWaitingRoom.java
+END
+RequestRecipeShopListSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/clientpackets/RequestRecipeShopListSet.java
+END

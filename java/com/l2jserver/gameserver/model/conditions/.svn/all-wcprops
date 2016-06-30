@@ -1,0 +1,455 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions
+END
+ConditionPlayerAgathionId.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerAgathionId.java
+END
+ConditionTargetNpcId.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetNpcId.java
+END
+ConditionTargetNpcType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetNpcType.java
+END
+ConditionPlayerActiveEffectId.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerActiveEffectId.java
+END
+ConditionPlayerSex.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerSex.java
+END
+ConditionPlayerActiveSkillId.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerActiveSkillId.java
+END
+ConditionItemId.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionItemId.java
+END
+ConditionTargetUsesWeaponKind.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetUsesWeaponKind.java
+END
+ConditionTargetInvSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetInvSize.java
+END
+ConditionPlayerCloakStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerCloakStatus.java
+END
+ConditionTargetNone.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetNone.java
+END
+ConditionForceBuff.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionForceBuff.java
+END
+ConditionPlayerFlyMounted.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerFlyMounted.java
+END
+ConditionSiegeZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionSiegeZone.java
+END
+ConditionPetType.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/279/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPetType.java
+END
+ConditionTargetRace.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetRace.java
+END
+ConditionGameTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/236/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionGameTime.java
+END
+ConditionLogicAnd.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionLogicAnd.java
+END
+ConditionPlayerBaseStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerBaseStats.java
+END
+ConditionTargetAggro.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetAggro.java
+END
+ConditionLogicNot.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionLogicNot.java
+END
+ConditionPlayerCp.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerCp.java
+END
+ConditionPlayerLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerLevel.java
+END
+ConditionChangeWeapon.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionChangeWeapon.java
+END
+ConditionSlotItemId.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionSlotItemId.java
+END
+ConditionPlayerLandingZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerLandingZone.java
+END
+ConditionLogicOr.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionLogicOr.java
+END
+ConditionTargetBodyPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetBodyPart.java
+END
+ConditionPlayerIsHero.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerIsHero.java
+END
+ConditionPlayerMp.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerMp.java
+END
+Condition.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/Condition.java
+END
+ConditionPlayerGrade.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerGrade.java
+END
+ConditionTargetActiveSkillId.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetActiveSkillId.java
+END
+ConditionUsingItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionUsingItemType.java
+END
+ConditionPlayerHasCastle.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerHasCastle.java
+END
+ConditionPlayerState.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerState.java
+END
+ConditionPlayerSubclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerSubclass.java
+END
+ConditionPlayerRace.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerRace.java
+END
+ConditionPlayerHasFort.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerHasFort.java
+END
+ConditionUsingSkill.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionUsingSkill.java
+END
+ConditionPlayerVehicleMounted.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerVehicleMounted.java
+END
+ConditionPlayerSiegeSide.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerSiegeSide.java
+END
+ConditionTargetLevelRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetLevelRange.java
+END
+ConditionPlayerIsClanLeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerIsClanLeader.java
+END
+ConditionTargetClassIdRestriction.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetClassIdRestriction.java
+END
+ConditionTargetWeight.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetWeight.java
+END
+ConditionPlayerSouls.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/307/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerSouls.java
+END
+ConditionPlayerTvTEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerTvTEvent.java
+END
+ConditionPlayerCharges.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerCharges.java
+END
+ConditionPlayerPledgeClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerPledgeClass.java
+END
+ConditionGameChance.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionGameChance.java
+END
+ConditionInventory.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionInventory.java
+END
+ConditionPlayerInsideZoneId.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerInsideZoneId.java
+END
+ConditionTargetActiveEffectId.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetActiveEffectId.java
+END
+ConditionPlayerServitorNpcId.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerServitorNpcId.java
+END
+ConditionPlayerPkCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerPkCount.java
+END
+ConditionTargetLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetLevel.java
+END
+ConditionPlayerRangeFromNpc.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerRangeFromNpc.java
+END
+ConditionPlayerInvSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerInvSize.java
+END
+ConditionWithSkill.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionWithSkill.java
+END
+ConditionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionListener.java
+END
+ConditionPlayerHasClanHall.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerHasClanHall.java
+END
+ConditionMinDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionMinDistance.java
+END
+ConditionPlayerInstanceId.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerInstanceId.java
+END
+ConditionSlotItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionSlotItemType.java
+END
+ConditionPlayerHp.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerHp.java
+END
+ConditionPlayerHasPet.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerHasPet.java
+END
+ConditionPlayerTransformationId.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerTransformationId.java
+END
+ConditionTargetPlayable.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetPlayable.java
+END
+ConditionTargetRaceId.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetRaceId.java
+END
+ConditionPlayerCanSweep.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/227/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerCanSweep.java
+END
+ConditionPlayerClassIdRestriction.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerClassIdRestriction.java
+END
+ConditionPlayerLevelRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerLevelRange.java
+END
+ConditionPlayerWeight.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionPlayerWeight.java
+END
+ConditionTargetAbnormal.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/conditions/ConditionTargetAbnormal.java
+END

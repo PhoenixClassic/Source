@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables
+END
+EnchantOptionsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/EnchantOptionsData.java
+END
+TeleportLocationTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/TeleportLocationTable.java
+END
+FishingMonstersData.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/FishingMonstersData.java
+END
+NpcBufferTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/238/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/NpcBufferTable.java
+END
+CharNameTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/CharNameTable.java
+END
+OfflineTradersTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/OfflineTradersTable.java
+END
+NevitAdventTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/NevitAdventTable.java
+END
+SummonSkillsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/SummonSkillsTable.java
+END
+MerchantPriceConfigTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/MerchantPriceConfigTable.java
+END
+OptionsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/280/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/OptionsData.java
+END
+ManorData.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/ManorData.java
+END
+EventDroplist.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/EventDroplist.java
+END
+PetNameTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/PetNameTable.java
+END
+FakePcsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/FakePcsTable.java
+END
+FishData.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/FishData.java
+END
+AdminTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/AdminTable.java
+END
+SkillTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/SkillTable.java
+END
+ItemTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/ItemTable.java
+END
+PrimeShopTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/662/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/PrimeShopTable.java
+END
+ClanTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/ClanTable.java
+END
+RecipeData.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/RecipeData.java
+END
+CharSummonTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/CharSummonTable.java
+END
+HitConditionBonus.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/236/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/HitConditionBonus.java
+END
+EnchantItemData.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/EnchantItemData.java
+END
+TerritoryTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/TerritoryTable.java
+END
+NpcPersonalAIData.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/NpcPersonalAIData.java
+END
+SkillTreesData.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/SkillTreesData.java
+END
+HennaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/HennaData.java
+END
+AugmentationData.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/281/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/AugmentationData.java
+END
+SummonEffectsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/SummonEffectsTable.java
+END
+NpcTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/NpcTable.java
+END
+MultiSell.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/MultiSell.java
+END
+EnchantHPBonusData.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/EnchantHPBonusData.java
+END
+StaticObjects.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/StaticObjects.java
+END
+PetDataTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/PetDataTable.java
+END
+ExperienceTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/ExperienceTable.java
+END
+FishingRodsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/FishingRodsData.java
+END
+DoorTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/DoorTable.java
+END
+ClassListData.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/ClassListData.java
+END
+UIData.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/UIData.java
+END
+CharTemplateTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/CharTemplateTable.java
+END
+ArmorSetsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/ArmorSetsData.java
+END
+EnchantGroupsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/776/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/EnchantGroupsData.java
+END
+InitialEquipmentData.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/InitialEquipmentData.java
+END
+SpawnTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/SpawnTable.java
+END
+HerbDropTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/datatables/HerbDropTable.java
+END

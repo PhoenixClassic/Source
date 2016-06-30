@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/734/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model
+END
+PLoc.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model/PLoc.java
+END
+ManagerNpcHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model/ManagerNpcHtml.java
+END
+TeamEventStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model/TeamEventStatus.java
+END
+Clock.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model/Clock.java
+END
+EventStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model/EventStatus.java
+END
+EventPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/734/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model/EventPlayer.java
+END
+EventNpc.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model/EventNpc.java
+END
+SingleEventStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/model/SingleEventStatus.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/241/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/clanhall
+END
+ClanHallSiegeEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/clanhall/ClanHallSiegeEngine.java
+END
+SiegeStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/clanhall/SiegeStatus.java
+END
+SiegableHall.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/clanhall/SiegableHall.java
+END
+AuctionableHall.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/241/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/clanhall/AuctionableHall.java
+END

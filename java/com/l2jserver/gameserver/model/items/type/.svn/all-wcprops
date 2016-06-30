@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/type
+END
+L2WeaponType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/type/L2WeaponType.java
+END
+L2EtcItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/type/L2EtcItemType.java
+END
+L2ActionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/type/L2ActionType.java
+END
+L2ItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/type/L2ItemType.java
+END
+L2ArmorType.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/type/L2ArmorType.java
+END

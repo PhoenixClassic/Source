@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events
+END
+ClanWarehouseDeleteItemEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanWarehouseDeleteItemEvent.java
+END
+ProfessionChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ProfessionChangeEvent.java
+END
+EquipmentEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/EquipmentEvent.java
+END
+ClanLeaderChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanLeaderChangeEvent.java
+END
+AugmentEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/AugmentEvent.java
+END
+ClanCreationEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanCreationEvent.java
+END
+RequestBypassToServerEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/RequestBypassToServerEvent.java
+END
+ClanWarehouseTransferEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanWarehouseTransferEvent.java
+END
+ChatEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ChatEvent.java
+END
+ItemTransferEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ItemTransferEvent.java
+END
+ClanJoinEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanJoinEvent.java
+END
+PlayerEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/PlayerEvent.java
+END
+ItemDropEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ItemDropEvent.java
+END
+FortSiegeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/FortSiegeEvent.java
+END
+ItemDestroyEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ItemDestroyEvent.java
+END
+TransformEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/TransformEvent.java
+END
+SiegeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/SiegeEvent.java
+END
+ItemPickupEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ItemPickupEvent.java
+END
+ItemCreateEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ItemCreateEvent.java
+END
+TvtKillEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/TvtKillEvent.java
+END
+ClanWarEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanWarEvent.java
+END
+PlayerLevelChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/PlayerLevelChangeEvent.java
+END
+DeathEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/DeathEvent.java
+END
+SkillUseEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/SkillUseEvent.java
+END
+DlgAnswerEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/DlgAnswerEvent.java
+END
+AddToInventoryEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/AddToInventoryEvent.java
+END
+ClanLeaveEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanLeaveEvent.java
+END
+HennaEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/HennaEvent.java
+END
+ClanWarehouseAddItemEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanWarehouseAddItemEvent.java
+END
+AttackEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/AttackEvent.java
+END
+ClanLevelUpEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/events/ClanLevelUpEvent.java
+END

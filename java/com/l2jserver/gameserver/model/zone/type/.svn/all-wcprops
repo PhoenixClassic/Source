@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/L2PSProjectHi5SVN/!svn/ver/802/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type
+END
+L2FishingZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2FishingZone.java
+END
+L2CastleZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2CastleZone.java
+END
+L2EffectZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2EffectZone.java
+END
+L2ConditionZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2ConditionZone.java
+END
+L2WaterZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2WaterZone.java
+END
+L2LandingZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2LandingZone.java
+END
+L2ScriptZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2ScriptZone.java
+END
+L2FortZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2FortZone.java
+END
+L2HqZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2HqZone.java
+END
+L2ResidenceTeleportZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2ResidenceTeleportZone.java
+END
+L2OlympiadStadiumZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2OlympiadStadiumZone.java
+END
+L2DerbyTrackZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2DerbyTrackZone.java
+END
+L2AntQueenZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/802/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2AntQueenZone.java
+END
+L2PeaceZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2PeaceZone.java
+END
+L2MotherTreeZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2MotherTreeZone.java
+END
+L2ResidenceHallTeleportZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2ResidenceHallTeleportZone.java
+END
+L2RespawnZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2RespawnZone.java
+END
+L2ArenaZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2ArenaZone.java
+END
+L2JailZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2JailZone.java
+END
+L2NoStoreZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2NoStoreZone.java
+END
+L2SwampZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2SwampZone.java
+END
+L2DynamicZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2DynamicZone.java
+END
+L2TownZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/784/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2TownZone.java
+END
+L2DragonValleyZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2DragonValleyZone.java
+END
+L2DamageZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2DamageZone.java
+END
+L2ClanHallZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2ClanHallZone.java
+END
+L2BossZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2BossZone.java
+END
+L2SiegableHallZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2SiegableHallZone.java
+END
+L2NoLandingZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2NoLandingZone.java
+END
+L2AbnormalZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2AbnormalZone.java
+END
+L2MultiFunctionZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/786/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2MultiFunctionZone.java
+END
+L2NoRestartZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2NoRestartZone.java
+END
+L2SiegeZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2SiegeZone.java
+END
+L2NoSummonFriendZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/type/L2NoSummonFriendZone.java
+END

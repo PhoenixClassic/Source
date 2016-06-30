@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/626/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem
+END
+RankPvpSystemUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemUtil.java
+END
+RankPvpSystemConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemConfig.java
+END
+RankPvpSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystem.java
+END
+Rank.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/Rank.java
+END
+RankPvpSystemRankPointsReward.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemRankPointsReward.java
+END
+CharacterRankRewardTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/CharacterRankRewardTable.java
+END
+Pvp.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/Pvp.java
+END
+RankPvpSystemBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/L2PSProjectHi5SVN/!svn/ver/626/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemBBSManager.java
+END
+IUserCommandHandlerPvpInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/IUserCommandHandlerPvpInfo.java
+END
+TopField.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/TopField.java
+END
+CharacterRankReward.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/CharacterRankReward.java
+END
+PvpTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/PvpTable.java
+END
+RankPvpSystemComboKill.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemComboKill.java
+END
+IVoicedCommandHandlerPvpInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/IVoicedCommandHandlerPvpInfo.java
+END
+RankPvpSystemZoneChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemZoneChecker.java
+END
+RankPvpSystemPlayerInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemPlayerInfo.java
+END
+RankPvpSystemBBSHtm.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemBBSHtm.java
+END
+RankReward.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankReward.java
+END
+TopTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/TopTable.java
+END
+PvpStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/PvpStats.java
+END
+RankRewardTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankRewardTable.java
+END
+RankPvpSystemDeathMgr.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/rank_system/rankpvpsystem/RankPvpSystemDeathMgr.java
+END

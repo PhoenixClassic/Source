@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/idfactory
+END
+IdFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/idfactory/IdFactory.java
+END
+BitSetIDFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/idfactory/BitSetIDFactory.java
+END
+CompactionIDFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/idfactory/CompactionIDFactory.java
+END
+StackIDFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/idfactory/StackIDFactory.java
+END

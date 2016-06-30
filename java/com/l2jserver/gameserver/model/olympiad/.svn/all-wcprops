@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/L2PSProjectHi5SVN/!svn/ver/663/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad
+END
+OlympiadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadManager.java
+END
+OlympiadGameManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadGameManager.java
+END
+Olympiad.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/663/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/Olympiad.java
+END
+OlympiadAnnouncer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadAnnouncer.java
+END
+OlympiadInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadInfo.java
+END
+CompetitionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/CompetitionType.java
+END
+OlympiadGameNonClassed.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadGameNonClassed.java
+END
+OlympiadGameClassed.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadGameClassed.java
+END
+OlympiadGameTeams.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadGameTeams.java
+END
+OlympiadGameNormal.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadGameNormal.java
+END
+OlympiadGameTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/OlympiadGameTask.java
+END
+Participant.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/Participant.java
+END
+AbstractOlympiadGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/olympiad/AbstractOlympiadGame.java
+END

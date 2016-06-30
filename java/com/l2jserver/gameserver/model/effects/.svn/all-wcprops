@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/L2PSProjectHi5SVN/!svn/ver/784/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/effects
+END
+EffectState.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/effects/EffectState.java
+END
+EffectFlag.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/effects/EffectFlag.java
+END
+EffectTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/effects/EffectTemplate.java
+END
+AbnormalEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/effects/AbnormalEffect.java
+END
+L2Effect.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/effects/L2Effect.java
+END
+L2EffectType.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/784/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/effects/L2EffectType.java
+END

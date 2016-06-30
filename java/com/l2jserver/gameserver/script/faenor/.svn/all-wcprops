@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/script/faenor
+END
+FaenorQuestParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/script/faenor/FaenorQuestParser.java
+END
+FaenorParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/script/faenor/FaenorParser.java
+END
+FaenorScriptEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/script/faenor/FaenorScriptEngine.java
+END
+FaenorEventParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/script/faenor/FaenorEventParser.java
+END
+FaenorInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/script/faenor/FaenorInterface.java
+END

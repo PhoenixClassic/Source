@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/L2PSProjectHi5SVN/!svn/ver/669/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items
+END
+PcItemTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/279/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/PcItemTemplate.java
+END
+L2WarehouseItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/L2WarehouseItem.java
+END
+L2Henna.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/L2Henna.java
+END
+L2Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/643/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/L2Item.java
+END
+L2Armor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/280/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/L2Armor.java
+END
+L2Weapon.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/662/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/L2Weapon.java
+END
+L2EtcItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/items/L2EtcItem.java
+END

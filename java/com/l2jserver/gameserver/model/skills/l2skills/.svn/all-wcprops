@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills
+END
+L2SkillSpawn.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillSpawn.java
+END
+L2SkillChargeDmg.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillChargeDmg.java
+END
+L2SkillSiegeFlag.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillSiegeFlag.java
+END
+L2SkillDrain.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillDrain.java
+END
+L2SkillSummon.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillSummon.java
+END
+L2SkillCreateItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillCreateItem.java
+END
+L2SkillLearnSkill.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillLearnSkill.java
+END
+L2SkillTrap.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillTrap.java
+END
+L2SkillSignet.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillSignet.java
+END
+L2SkillDefault.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillDefault.java
+END
+L2SkillTeleport.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillTeleport.java
+END
+L2SkillSignetCasttime.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillSignetCasttime.java
+END
+L2SkillDecoy.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/l2skills/L2SkillDecoy.java
+END

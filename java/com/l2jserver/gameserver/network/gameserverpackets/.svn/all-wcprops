@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets
+END
+ChangeAccessLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/ChangeAccessLevel.java
+END
+SendMail.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/SendMail.java
+END
+PlayerLogout.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/PlayerLogout.java
+END
+TempBan.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/TempBan.java
+END
+ChangePassword.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/ChangePassword.java
+END
+PlayerInGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/PlayerInGame.java
+END
+AuthRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/AuthRequest.java
+END
+PlayerAuthRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/PlayerAuthRequest.java
+END
+PlayerTracert.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/PlayerTracert.java
+END
+BlowFishKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/BlowFishKey.java
+END
+ServerStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/ServerStatus.java
+END
+ReplyCharacters.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/gameserverpackets/ReplyCharacters.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter
+END
+AuditFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/AuditFormatter.java
+END
+ChatLogFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/ChatLogFormatter.java
+END
+OlympiadFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/OlympiadFormatter.java
+END
+ConsoleLogFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/ConsoleLogFormatter.java
+END
+DamageFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/DamageFormatter.java
+END
+ItemLogFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/ItemLogFormatter.java
+END
+AccountingFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/AccountingFormatter.java
+END
+GMAuditFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/GMAuditFormatter.java
+END
+FileLogFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/FileLogFormatter.java
+END
+EnchantFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/formatter/EnchantFormatter.java
+END

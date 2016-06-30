@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter
+END
+ChatFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/ChatFilter.java
+END
+EnchantSkillFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/EnchantSkillFilter.java
+END
+ErrorFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/ErrorFilter.java
+END
+GMAuditFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/GMAuditFilter.java
+END
+ItemFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/ItemFilter.java
+END
+PDamageFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/PDamageFilter.java
+END
+EnchantItemFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/EnchantItemFilter.java
+END
+MDamageFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/MDamageFilter.java
+END
+AuditFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/log/filter/AuditFilter.java
+END

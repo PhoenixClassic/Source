@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/util
+END
+L2LogManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/L2LogManager.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/Base64.java
+END
+CloseShieldedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/CloseShieldedInputStream.java
+END
+L2HashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/L2HashMap.java
+END
+Rnd.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/Rnd.java
+END
+PrimeFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/java/com/l2jserver/util/PrimeFinder.java
+END
+IPSubnet.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/IPSubnet.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/util/Util.java
+END
+L2FastList.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/L2FastList.java
+END
+StackTrace.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/L2PSProjectHi5SVN/!svn/ver/238/trunk/L2PS_Server/java/com/l2jserver/util/StackTrace.java
+END
+IPv4Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/IPv4Filter.java
+END
+L2FastMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/L2FastMap.java
+END
+L2Properties.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/L2Properties.java
+END
+HexUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/HexUtils.java
+END
+DeadLockDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/DeadLockDetector.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/StringUtil.java
+END
+L2ArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/util/L2ArrayList.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/L2PSProjectHi5SVN/!svn/ver/735/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills
+END
+L2Skill.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/724/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/L2Skill.java
+END
+L2SkillOpType.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/L2SkillOpType.java
+END
+L2SkillType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/735/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/L2SkillType.java
+END
+L2TraitType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/L2TraitType.java
+END

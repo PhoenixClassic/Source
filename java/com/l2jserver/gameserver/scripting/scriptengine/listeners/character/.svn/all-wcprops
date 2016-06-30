@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/character
+END
+AttackListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/character/AttackListener.java
+END
+SkillUseListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/character/SkillUseListener.java
+END
+DeathListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/character/DeathListener.java
+END

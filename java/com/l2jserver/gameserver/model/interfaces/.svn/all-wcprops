@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/interfaces
+END
+IL2EntryProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/interfaces/IL2EntryProcedure.java
+END
+ISkillsHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/52/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/interfaces/ISkillsHolder.java
+END
+IChanceSkillTrigger.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/interfaces/IChanceSkillTrigger.java
+END
+IL2Procedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/interfaces/IL2Procedure.java
+END

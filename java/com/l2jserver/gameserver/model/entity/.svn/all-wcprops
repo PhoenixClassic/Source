@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/L2PSProjectHi5SVN/!svn/ver/801/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity
+END
+ClanHall.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/ClanHall.java
+END
+Siege.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Siege.java
+END
+Fort.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Fort.java
+END
+BlockCheckerEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/BlockCheckerEngine.java
+END
+TvTEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/801/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/TvTEvent.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Message.java
+END
+TvTEventTeam.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/TvTEventTeam.java
+END
+Auction.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/227/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Auction.java
+END
+FortSiege.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/FortSiege.java
+END
+Couple.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Couple.java
+END
+RecoBonus.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/RecoBonus.java
+END
+TvTEventTeleporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/TvTEventTeleporter.java
+END
+TvTEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/TvTEventListener.java
+END
+TvTManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/TvTManager.java
+END
+Hero.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Hero.java
+END
+Duel.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Duel.java
+END
+Castle.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Castle.java
+END
+DimensionalRift.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/241/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/DimensionalRift.java
+END
+Instance.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Instance.java
+END
+L2Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/L2Event.java
+END
+Siegable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/entity/Siegable.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/L2PSProjectHi5SVN/!svn/ver/623/trunk/L2PS_Server/dist/login
+END
+startLoginServer.bat
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/login/startLoginServer.bat
+END
+startSQLAccountManager.bat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/dist/login/startSQLAccountManager.bat
+END
+startSQLAccountManager.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/login/startSQLAccountManager.sh
+END
+startLoginServer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/login/startLoginServer.sh
+END
+log.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/dist/login/log.cfg
+END
+RegisterGameServer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/login/RegisterGameServer.sh
+END
+LoginServer_loop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/login/LoginServer_loop.sh
+END
+console.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/login/console.cfg
+END
+banned_ip.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/login/banned_ip.cfg
+END
+RegisterGameServer.bat
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/dist/login/RegisterGameServer.bat
+END

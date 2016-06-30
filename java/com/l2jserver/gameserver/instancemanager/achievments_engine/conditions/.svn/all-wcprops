@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/666/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions
+END
+Karma.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Karma.java
+END
+ItemsCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/662/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/ItemsCount.java
+END
+ClanLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/ClanLevel.java
+END
+RaidPoints.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/RaidPoints.java
+END
+Pvp.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Pvp.java
+END
+SkillEnchant.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/SkillEnchant.java
+END
+RaidKill.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/RaidKill.java
+END
+Marry.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Marry.java
+END
+Level.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/662/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Level.java
+END
+Crp.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Crp.java
+END
+Sub.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Sub.java
+END
+OnlineTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/OnlineTime.java
+END
+ClanLeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/ClanLeader.java
+END
+WeaponEnchant.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/WeaponEnchant.java
+END
+CompleteAchievements.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/CompleteAchievements.java
+END
+eventKills.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/eventKills.java
+END
+Pk.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Pk.java
+END
+Hero.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Hero.java
+END
+Noble.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Noble.java
+END
+events.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/events.java
+END
+Castle.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Castle.java
+END
+HeroCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/HeroCount.java
+END
+Adena.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/666/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Adena.java
+END
+MinCMcount.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/MinCMcount.java
+END
+Mage.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/Mage.java
+END
+eventWins.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/achievments_engine/conditions/eventWins.java
+END

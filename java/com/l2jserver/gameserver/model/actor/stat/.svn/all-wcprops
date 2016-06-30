@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/763/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat
+END
+VehicleStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/VehicleStat.java
+END
+StaticObjStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/StaticObjStat.java
+END
+CharStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/691/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/CharStat.java
+END
+PcStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/763/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/PcStat.java
+END
+SummonStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/SummonStat.java
+END
+NpcStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/NpcStat.java
+END
+PetStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/311/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/PetStat.java
+END
+PlayableStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/PlayableStat.java
+END
+DoorStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/DoorStat.java
+END
+ControllableAirShipStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/stat/ControllableAirShipStat.java
+END

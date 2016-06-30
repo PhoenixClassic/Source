@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai
+END
+L2AttackableAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/691/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2AttackableAI.java
+END
+L2PlayerAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2PlayerAI.java
+END
+CtrlEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/CtrlEvent.java
+END
+L2SummonAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2SummonAI.java
+END
+L2VehicleAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2VehicleAI.java
+END
+L2BoatAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2BoatAI.java
+END
+Ctrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/Ctrl.java
+END
+L2CharacterAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2CharacterAI.java
+END
+AbstractAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/AbstractAI.java
+END
+NextAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/NextAction.java
+END
+L2AirShipAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2AirShipAI.java
+END
+L2SiegeGuardAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2SiegeGuardAI.java
+END
+CtrlIntention.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/CtrlIntention.java
+END
+L2DoorAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2DoorAI.java
+END
+L2PlayableAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2PlayableAI.java
+END
+L2ControllableMobAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2ControllableMobAI.java
+END
+L2SpecialSiegeGuardAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2SpecialSiegeGuardAI.java
+END
+L2FortSiegeGuardAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/ai/L2FortSiegeGuardAI.java
+END

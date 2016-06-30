@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/talk
+END
+ChatListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/talk/ChatListener.java
+END
+RequestBypassToServerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/talk/RequestBypassToServerListener.java
+END
+ChatFilterListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/talk/ChatFilterListener.java
+END
+DlgAnswerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/talk/DlgAnswerListener.java
+END

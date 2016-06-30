@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/L2PSProjectHi5SVN/!svn/ver/768/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks
+END
+TaskScript.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskScript.java
+END
+TaskOlympiadSave.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskOlympiadSave.java
+END
+TaskGlobalVariablesSave.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskGlobalVariablesSave.java
+END
+TaskMonthlyResetTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/768/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskMonthlyResetTask.java
+END
+TaskRestart.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskRestart.java
+END
+TaskClanLeaderApply.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/207/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskClanLeaderApply.java
+END
+TaskRecom.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskRecom.java
+END
+TaskJython.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskJython.java
+END
+TaskBirthday.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskBirthday.java
+END
+TaskTriesResetTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/768/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskTriesResetTask.java
+END
+TaskCleanUp.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskCleanUp.java
+END
+TaskAdvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskAdvent.java
+END
+TaskRaidPointsReset.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskRaidPointsReset.java
+END
+TaskShutdown.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskShutdown.java
+END
+TaskSevenSignsUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskSevenSignsUpdate.java
+END
+TaskSoIStageUpdater.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskSoIStageUpdater.java
+END
+TaskDailySkillReuseClean.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/taskmanager/tasks/TaskDailySkillReuseClean.java
+END

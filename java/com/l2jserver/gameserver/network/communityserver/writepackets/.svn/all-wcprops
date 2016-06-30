@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/writepackets
+END
+InitWorldInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/writepackets/InitWorldInfo.java
+END
+WorldInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/writepackets/WorldInfo.java
+END
+GameServerAuth.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/writepackets/GameServerAuth.java
+END
+RequestShowCommunityBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/writepackets/RequestShowCommunityBoard.java
+END
+BlowFishKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/writepackets/BlowFishKey.java
+END
+RequestCommunityBoardWrite.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/writepackets/RequestCommunityBoardWrite.java
+END

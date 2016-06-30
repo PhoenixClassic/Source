@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas
+END
+FuncMAtkCritical.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMAtkCritical.java
+END
+FuncAtkAccuracy.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncAtkAccuracy.java
+END
+FuncBowAtkRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncBowAtkRange.java
+END
+FuncPDefMod.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncPDefMod.java
+END
+FuncGatesPDefMod.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncGatesPDefMod.java
+END
+FuncArmorSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncArmorSet.java
+END
+FuncMDefMod.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMDefMod.java
+END
+FuncGatesMDefMod.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncGatesMDefMod.java
+END
+FuncMaxMpMul.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMaxMpMul.java
+END
+FuncHenna.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncHenna.java
+END
+FuncMaxMpAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMaxMpAdd.java
+END
+FuncMaxHpMul.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMaxHpMul.java
+END
+FuncPAtkSpeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncPAtkSpeed.java
+END
+FuncMaxHpAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMaxHpAdd.java
+END
+FuncMAtkSpeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMAtkSpeed.java
+END
+FuncMaxCpMul.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMaxCpMul.java
+END
+FuncPAtkMod.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncPAtkMod.java
+END
+FuncMaxCpAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMaxCpAdd.java
+END
+FuncCrossBowAtkRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncCrossBowAtkRange.java
+END
+FuncAtkCritical.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncAtkCritical.java
+END
+FuncMAtkMod.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMAtkMod.java
+END
+FuncMoveSpeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncMoveSpeed.java
+END
+FuncAtkEvasion.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/372/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/skills/funcs/formulas/FuncAtkEvasion.java
+END

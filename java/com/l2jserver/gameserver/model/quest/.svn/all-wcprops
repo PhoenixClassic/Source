@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/L2PSProjectHi5SVN/!svn/ver/822/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/quest
+END
+QuestState.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/822/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/quest/QuestState.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/quest/Event.java
+END
+QuestTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/quest/QuestTimer.java
+END
+Quest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/822/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/quest/Quest.java
+END
+State.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/quest/State.java
+END

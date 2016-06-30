@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/readpackets
+END
+InitCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/readpackets/InitCS.java
+END
+ClanNoticeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/readpackets/ClanNoticeInfo.java
+END
+ConnectionError.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/readpackets/ConnectionError.java
+END
+RequestPlayerShowMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/readpackets/RequestPlayerShowMessage.java
+END
+RequestPlayerShowBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/readpackets/RequestPlayerShowBoard.java
+END
+AuthResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/readpackets/AuthResponse.java
+END
+RequestWorldInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/communityserver/readpackets/RequestWorldInfo.java
+END

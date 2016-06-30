@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/L2PSProjectHi5SVN/!svn/ver/227/trunk/L2PS_Server/java/com/l2jserver/loginserver
+END
+GameServerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/GameServerThread.java
+END
+HackingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/HackingException.java
+END
+SelectorHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/SelectorHelper.java
+END
+GameServerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/GameServerListener.java
+END
+GameServerTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/GameServerTable.java
+END
+SessionKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/SessionKey.java
+END
+L2LoginServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/227/trunk/L2PS_Server/java/com/l2jserver/loginserver/L2LoginServer.java
+END
+LoginController.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/LoginController.java
+END
+FloodProtectedListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/loginserver/FloodProtectedListener.java
+END

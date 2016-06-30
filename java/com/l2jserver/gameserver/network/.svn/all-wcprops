@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/network
+END
+NpcStringId.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/NpcStringId.java
+END
+GameCrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/GameCrypt.java
+END
+BlowFishKeygen.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/BlowFishKeygen.java
+END
+L2GamePacketHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/219/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/L2GamePacketHandler.java
+END
+ClientStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/ClientStats.java
+END
+L2GameClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/L2GameClient.java
+END
+SystemMessageId.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/763/trunk/L2PS_Server/java/com/l2jserver/gameserver/network/SystemMessageId.java
+END

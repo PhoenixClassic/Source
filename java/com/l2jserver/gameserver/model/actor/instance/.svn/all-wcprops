@@ -1,0 +1,581 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/813/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance
+END
+L2NpcInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2NpcInstance.java
+END
+L2PetInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/669/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2PetInstance.java
+END
+L2ClanHallManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ClanHallManagerInstance.java
+END
+L2ControllableAirShipInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ControllableAirShipInstance.java
+END
+L2DoorInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2DoorInstance.java
+END
+L2ClassMasterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ClassMasterInstance.java
+END
+L2FriendlyMobInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FriendlyMobInstance.java
+END
+L2FortWyvernManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortWyvernManagerInstance.java
+END
+L2TrainerHealersInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TrainerHealersInstance.java
+END
+L2ServitorInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ServitorInstance.java
+END
+L2FortBallistaInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortBallistaInstance.java
+END
+L2VillageMasterPriestInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VillageMasterPriestInstance.java
+END
+L2EventMonsterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2EventMonsterInstance.java
+END
+L2ObservationInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ObservationInstance.java
+END
+L2TamedBeastInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TamedBeastInstance.java
+END
+L2SepulcherNpcInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2SepulcherNpcInstance.java
+END
+L2MercManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2MercManagerInstance.java
+END
+L2FlameTowerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FlameTowerInstance.java
+END
+L2FortManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortManagerInstance.java
+END
+L2VillageMasterDwarfInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VillageMasterDwarfInstance.java
+END
+L2EffectPointInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2EffectPointInstance.java
+END
+L2DawnPriestInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2DawnPriestInstance.java
+END
+L2RaceManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2RaceManagerInstance.java
+END
+L2VillageMasterFighterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VillageMasterFighterInstance.java
+END
+L2AuctioneerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2AuctioneerInstance.java
+END
+L2PetManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2PetManagerInstance.java
+END
+L2MonsterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/639/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2MonsterInstance.java
+END
+L2ClanHallDoormenInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ClanHallDoormenInstance.java
+END
+L2TrainerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TrainerInstance.java
+END
+L2VillageMasterMysticInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VillageMasterMysticInstance.java
+END
+L2FishermanInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FishermanInstance.java
+END
+L2MerchantInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2MerchantInstance.java
+END
+L2FortCommanderInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortCommanderInstance.java
+END
+L2SymbolMakerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2SymbolMakerInstance.java
+END
+L2FortEnvoyInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortEnvoyInstance.java
+END
+L2BoatInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2BoatInstance.java
+END
+L2FortSiegeNpcInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/227/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortSiegeNpcInstance.java
+END
+L2CubicInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2CubicInstance.java
+END
+L2FortLogisticsInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortLogisticsInstance.java
+END
+L2GuardInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2GuardInstance.java
+END
+L2RaidBossInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2RaidBossInstance.java
+END
+L2VoteManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VoteManagerInstance.java
+END
+L2FestivalMonsterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FestivalMonsterInstance.java
+END
+L2SiegeNpcInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2SiegeNpcInstance.java
+END
+L2SepulcherMonsterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2SepulcherMonsterInstance.java
+END
+L2VillageMasterKamaelInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VillageMasterKamaelInstance.java
+END
+L2FortDoormenInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortDoormenInstance.java
+END
+L2ManorManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ManorManagerInstance.java
+END
+L2RiftInvaderInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2RiftInvaderInstance.java
+END
+L2FlyNpcInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FlyNpcInstance.java
+END
+L2StaticObjectInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2StaticObjectInstance.java
+END
+L2GrandBossInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2GrandBossInstance.java
+END
+L2TvTEventNpcInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TvTEventNpcInstance.java
+END
+L2ControlTowerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ControlTowerInstance.java
+END
+L2DungeonGatekeeperInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2DungeonGatekeeperInstance.java
+END
+L2TerritoryWardInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TerritoryWardInstance.java
+END
+L2MerchantSummonInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2MerchantSummonInstance.java
+END
+L2EventChestInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2EventChestInstance.java
+END
+L2AchievementsInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/662/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2AchievementsInstance.java
+END
+L2AdventurerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2AdventurerInstance.java
+END
+L2VillageMasterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/766/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VillageMasterInstance.java
+END
+L2SiegeSummonInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2SiegeSummonInstance.java
+END
+L2BlockInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2BlockInstance.java
+END
+L2DecoyInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2DecoyInstance.java
+END
+L2FlyRaidBossInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FlyRaidBossInstance.java
+END
+L2DoormenInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2DoormenInstance.java
+END
+L2FeedableBeastInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FeedableBeastInstance.java
+END
+L2AirShipInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2AirShipInstance.java
+END
+L2WeddingManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2WeddingManagerInstance.java
+END
+L2TeleporterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/784/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TeleporterInstance.java
+END
+L2FestivalGuideInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FestivalGuideInstance.java
+END
+L2WarehouseInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2WarehouseInstance.java
+END
+L2NpcBufferInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/238/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2NpcBufferInstance.java
+END
+L2ChestInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ChestInstance.java
+END
+L2OlympiadManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2OlympiadManagerInstance.java
+END
+L2WyvernManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2WyvernManagerInstance.java
+END
+L2PcInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/813/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2PcInstance.java
+END
+L2VillageMasterOrcInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VillageMasterOrcInstance.java
+END
+L2ArtefactInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ArtefactInstance.java
+END
+L2TrapInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TrapInstance.java
+END
+L2SiegeFlagInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2SiegeFlagInstance.java
+END
+L2ControllableMobInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2ControllableMobInstance.java
+END
+L2SignsPriestInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2SignsPriestInstance.java
+END
+L2TerrainObjectInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TerrainObjectInstance.java
+END
+L2DuskPriestInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2DuskPriestInstance.java
+END
+L2FlyMonsterInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FlyMonsterInstance.java
+END
+L2CastleDoormenInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2CastleDoormenInstance.java
+END
+L2DefenderInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2DefenderInstance.java
+END
+L2QuestGuardInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2QuestGuardInstance.java
+END
+L2CastleMagicianInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2CastleMagicianInstance.java
+END
+L2FlyTerrainObjectInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FlyTerrainObjectInstance.java
+END
+L2TransformManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2TransformManagerInstance.java
+END
+L2FortSupportCaptainInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2FortSupportCaptainInstance.java
+END
+L2VillageMasterDElfInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2VillageMasterDElfInstance.java
+END
+L2BabyPetInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2BabyPetInstance.java
+END
+L2CastleWyvernManagerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/instance/L2CastleWyvernManagerInstance.java
+END

@@ -1,0 +1,49 @@
+10
+
+dir
+849
+https://xp-dev.com/svn/L2PSProjectHi5SVN/trunk/L2PS_Server/java/com/l2jserver/tools
+https://xp-dev.com/svn/L2PSProjectHi5SVN
+
+
+
+2013-03-10T00:22:11.594048Z
+124
+L2PS
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fd1ff78b-e4b0-483a-af6a-0984f6508581
+
+accountmanager
+dir
+
+configurator
+dir
+
+dbinstaller
+dir
+
+gsregistering
+dir
+
+i18n
+dir
+
+images
+dir
+
+ngl
+dir
+

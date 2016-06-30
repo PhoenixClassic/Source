@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/options
+END
+OptionsSkillHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/L2PSProjectHi5SVN/!svn/ver/280/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/options/OptionsSkillHolder.java
+END
+Options.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/options/Options.java
+END
+OptionsSkillType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/280/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/options/OptionsSkillType.java
+END
+EnchantOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/L2PSProjectHi5SVN/!svn/ver/280/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/options/EnchantOptions.java
+END

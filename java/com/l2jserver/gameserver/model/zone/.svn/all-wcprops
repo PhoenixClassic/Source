@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/L2PSProjectHi5SVN/!svn/ver/802/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone
+END
+L2ZoneType.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/L2ZoneType.java
+END
+ZoneId.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/786/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/ZoneId.java
+END
+L2ZoneForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/L2ZoneForm.java
+END
+L2ZoneRespawn.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/L2ZoneRespawn.java
+END
+TaskZoneSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/TaskZoneSettings.java
+END
+AbstractZoneSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/zone/AbstractZoneSettings.java
+END

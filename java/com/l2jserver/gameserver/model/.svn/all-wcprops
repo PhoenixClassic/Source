@@ -1,0 +1,527 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/model
+END
+SpawnListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/SpawnListener.java
+END
+ShortCuts.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/ShortCuts.java
+END
+Elementals.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/Elementals.java
+END
+L2World.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2World.java
+END
+BlockList.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/BlockList.java
+END
+L2Augmentation.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/280/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Augmentation.java
+END
+DropProtection.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/DropProtection.java
+END
+TempItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/TempItem.java
+END
+ChanceCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/ChanceCondition.java
+END
+L2TeleportLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2TeleportLocation.java
+END
+L2Macro.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Macro.java
+END
+CharEffectList.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/626/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/CharEffectList.java
+END
+L2PremiumItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2PremiumItem.java
+END
+ClanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/ClanInfo.java
+END
+L2PetData.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/207/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2PetData.java
+END
+TradeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/TradeList.java
+END
+L2Radar.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Radar.java
+END
+L2ExtractableSkill.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ExtractableSkill.java
+END
+ChanceSkillList.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/ChanceSkillList.java
+END
+PlayerVariables.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/PlayerVariables.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/Location.java
+END
+L2DropCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2DropCategory.java
+END
+MobGroupTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/MobGroupTable.java
+END
+L2Transformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Transformation.java
+END
+CursedWeapon.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/CursedWeapon.java
+END
+L2ExtractableProductItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ExtractableProductItem.java
+END
+L2NpcAIData.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2NpcAIData.java
+END
+L2ShortCut.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ShortCut.java
+END
+MacroList.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/MacroList.java
+END
+L2Request.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Request.java
+END
+L2RecipeInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2RecipeInstance.java
+END
+L2EnchantSkillLearn.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2EnchantSkillLearn.java
+END
+EnchantScroll.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/EnchantScroll.java
+END
+L2Object.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Object.java
+END
+L2LvlupData.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2LvlupData.java
+END
+PcCondOverride.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/334/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/PcCondOverride.java
+END
+L2Party.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/636/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Party.java
+END
+CombatFlag.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/CombatFlag.java
+END
+MobGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/MobGroup.java
+END
+L2RecipeStatInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2RecipeStatInstance.java
+END
+L2ManufactureList.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ManufactureList.java
+END
+L2ContactList.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ContactList.java
+END
+L2Seed.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Seed.java
+END
+TradeItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/TradeItem.java
+END
+TimeStamp.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/TimeStamp.java
+END
+L2Spawn.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/691/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Spawn.java
+END
+L2RecipeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2RecipeList.java
+END
+UIKeysSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/238/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/UIKeysSettings.java
+END
+L2ArmorSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ArmorSet.java
+END
+ActionKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/238/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/ActionKey.java
+END
+L2MinionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2MinionData.java
+END
+CharSelectInfoPackage.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/CharSelectInfoPackage.java
+END
+L2CharPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2CharPosition.java
+END
+StatsSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/822/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/StatsSet.java
+END
+L2GroupSpawn.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2GroupSpawn.java
+END
+L2SquadTrainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2SquadTrainer.java
+END
+L2EnchantSkillGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2EnchantSkillGroup.java
+END
+L2CommandChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2CommandChannel.java
+END
+AutoSpawnHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/AutoSpawnHandler.java
+END
+L2SiegeClan.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2SiegeClan.java
+END
+AbstractPlayerGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/L2PSProjectHi5SVN/!svn/ver/207/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/AbstractPlayerGroup.java
+END
+L2AccessLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2AccessLevel.java
+END
+L2WalkRoute.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/227/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2WalkRoute.java
+END
+L2AdminCommandAccessRight.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2AdminCommandAccessRight.java
+END
+ShotType.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/ShotType.java
+END
+L2NpcWalkerNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2NpcWalkerNode.java
+END
+L2ManufactureItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ManufactureItem.java
+END
+FusionSkill.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/FusionSkill.java
+END
+EnchantItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/EnchantItem.java
+END
+PartyMatchWaitingList.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/PartyMatchWaitingList.java
+END
+L2MapRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2MapRegion.java
+END
+ItemInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/ItemInfo.java
+END
+L2WorldRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2WorldRegion.java
+END
+VehiclePathPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/VehiclePathPoint.java
+END
+L2DropData.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2DropData.java
+END
+L2Clan.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/L2PSProjectHi5SVN/!svn/ver/626/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Clan.java
+END
+ItemRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/ItemRequest.java
+END
+L2TradeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2TradeList.java
+END
+L2ExtractableProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ExtractableProduct.java
+END
+PartyMatchRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/PartyMatchRoom.java
+END
+L2SkillLearn.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2SkillLearn.java
+END
+PartyMatchRoomList.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/PartyMatchRoomList.java
+END
+L2ClanMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2ClanMember.java
+END
+TerritoryWard.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/TerritoryWard.java
+END
+L2PetLevelData.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2PetLevelData.java
+END
+L2Territory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/L2Territory.java
+END
+TowerSpawn.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/315/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/TowerSpawn.java
+END

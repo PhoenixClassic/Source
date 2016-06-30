@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/dist/game
+END
+GameServer_loop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/game/GameServer_loop.sh
+END
+log.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/dist/game/log.cfg
+END
+startGameServer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/game/startGameServer.sh
+END
+console.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/dist/game/console.cfg
+END
+startGameServer.bat
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/game/startGameServer.bat
+END

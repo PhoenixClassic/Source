@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor
+END
+L2Npc.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Npc.java
+END
+L2Attackable.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/L2PSProjectHi5SVN/!svn/ver/793/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Attackable.java
+END
+L2Summon.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/L2PSProjectHi5SVN/!svn/ver/803/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Summon.java
+END
+L2Decoy.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Decoy.java
+END
+L2Vehicle.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/236/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Vehicle.java
+END
+L2Playable.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/L2PSProjectHi5SVN/!svn/ver/830/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Playable.java
+END
+L2Character.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/832/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Character.java
+END
+L2Tower.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Tower.java
+END
+L2Trap.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/model/actor/L2Trap.java
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/L2PSProjectHi5SVN/!svn/ver/745/trunk/L2PS_Server/dist/game/config/Server
+END
+FloodProtector.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/L2PSProjectHi5SVN/!svn/ver/361/trunk/L2PS_Server/dist/game/config/Server/FloodProtector.l2ps
+END
+Server.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/game/config/Server/Server.l2ps
+END
+AntiBotting.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/L2PSProjectHi5SVN/!svn/ver/745/trunk/L2PS_Server/dist/game/config/Server/AntiBotting.l2ps
+END
+VoteEventNpc.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/L2PSProjectHi5SVN/!svn/ver/463/trunk/L2PS_Server/dist/game/config/Server/VoteEventNpc.l2ps
+END
+CommunityPvP.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/dist/game/config/Server/CommunityPvP.l2ps
+END
+Security.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/game/config/Server/Security.l2ps
+END
+ClientPackets.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/L2PSProjectHi5SVN/!svn/ver/616/trunk/L2PS_Server/dist/game/config/Server/ClientPackets.l2ps
+END
+IdFactory.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/L2PSProjectHi5SVN/!svn/ver/361/trunk/L2PS_Server/dist/game/config/Server/IdFactory.l2ps
+END
+Optimization.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/dist/game/config/Server/Optimization.l2ps
+END
+ThreadSettings.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/L2PSProjectHi5SVN/!svn/ver/617/trunk/L2PS_Server/dist/game/config/Server/ThreadSettings.l2ps
+END
+CommunityServer.l2ps
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/L2PSProjectHi5SVN/!svn/ver/640/trunk/L2PS_Server/dist/game/config/Server/CommunityServer.l2ps
+END
+AutoRestartGameServer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/L2PSProjectHi5SVN/!svn/ver/649/trunk/L2PS_Server/dist/game/config/Server/AutoRestartGameServer.properties
+END

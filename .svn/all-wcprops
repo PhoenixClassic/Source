@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/build.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/L2PSProjectHi5SVN/!svn/ver/4/trunk/L2PS_Server/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/.classpath
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/L2PSProjectHi5SVN/!svn/ver/822/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine
+END
+Phoenix.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/Phoenix.java
+END
+Team.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/732/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/Team.java
+END
+SystemMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/SystemMessages.java
+END
+Interface.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/732/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/Interface.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/Main.java
+END
+AbstractEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/732/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/AbstractEvent.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/L2PSProjectHi5SVN/!svn/ver/822/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/Configuration.java
+END
+ManagerNpc.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/732/trunk/L2PS_Server/java/com/l2jserver/gameserver/instancemanager/event_engine/ManagerNpc.java
+END

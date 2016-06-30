@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver
+END
+Announcements.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/Announcements.java
+END
+MonsterRace.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/MonsterRace.java
+END
+ItemsAutoDestroy.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/ItemsAutoDestroy.java
+END
+RecipeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/RecipeController.java
+END
+SevenSigns.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/SevenSigns.java
+END
+TaskPriority.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/TaskPriority.java
+END
+ThreadPoolManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/ThreadPoolManager.java
+END
+SevenSignsFestival.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/SevenSignsFestival.java
+END
+TradeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/TradeController.java
+END
+FortUpdater.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/FortUpdater.java
+END
+AnnounceOnline.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/L2PSProjectHi5SVN/!svn/ver/653/trunk/L2PS_Server/java/com/l2jserver/gameserver/AnnounceOnline.java
+END
+GameTimeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/L2PSProjectHi5SVN/!svn/ver/241/trunk/L2PS_Server/java/com/l2jserver/gameserver/GameTimeController.java
+END
+GeoData.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/GeoData.java
+END
+InstanceListManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/InstanceListManager.java
+END
+GameServerRestart.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/649/trunk/L2PS_Server/java/com/l2jserver/gameserver/GameServerRestart.java
+END
+Shutdown.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/L2PSProjectHi5SVN/!svn/ver/649/trunk/L2PS_Server/java/com/l2jserver/gameserver/Shutdown.java
+END
+LoginServerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/LoginServerThread.java
+END
+GameServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/L2PSProjectHi5SVN/!svn/ver/834/trunk/L2PS_Server/java/com/l2jserver/gameserver/GameServer.java
+END
+GeoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/GeoEngine.java
+END
+CastleUpdater.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/CastleUpdater.java
+END

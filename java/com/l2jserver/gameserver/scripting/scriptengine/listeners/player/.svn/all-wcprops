@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player
+END
+TransformListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/TransformListener.java
+END
+ProfessionChangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/ProfessionChangeListener.java
+END
+PlayerSpawnListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/PlayerSpawnListener.java
+END
+EventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/L2PSProjectHi5SVN/!svn/ver/613/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/EventListener.java
+END
+PlayerDespawnListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/PlayerDespawnListener.java
+END
+HennaListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/HennaListener.java
+END
+PlayerLevelListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/PlayerLevelListener.java
+END
+NewItemListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/NewItemListener.java
+END
+AugmentListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/AugmentListener.java
+END
+ItemTracker.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/ItemTracker.java
+END
+PlayerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/PlayerListener.java
+END
+DropListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/DropListener.java
+END
+EquipmentListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/L2PSProjectHi5SVN/!svn/ver/124/trunk/L2PS_Server/java/com/l2jserver/gameserver/scripting/scriptengine/listeners/player/EquipmentListener.java
+END

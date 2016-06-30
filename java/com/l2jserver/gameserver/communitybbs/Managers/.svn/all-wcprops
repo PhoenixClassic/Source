@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/L2PSProjectHi5SVN/!svn/ver/772/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers
+END
+ClanBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/ClanBBSManager.java
+END
+ServiceBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/772/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/ServiceBBSManager.java
+END
+TopBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/TopBBSManager.java
+END
+RegionBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/726/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/RegionBBSManager.java
+END
+ContactManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/ContactManager.java
+END
+BuffBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/BuffBBSManager.java
+END
+ForumsBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/ForumsBBSManager.java
+END
+BaseBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/BaseBBSManager.java
+END
+StateBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/StateBBSManager.java
+END
+TopicBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/TopicBBSManager.java
+END
+AdminBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/AdminBBSManager.java
+END
+TeleportBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/L2PSProjectHi5SVN/!svn/ver/626/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/TeleportBBSManager.java
+END
+ServerInfoManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/ServerInfoManager.java
+END
+PostBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/PostBBSManager.java
+END
+ItemTableBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/ItemTableBBSManager.java
+END
+EnchantBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/EnchantBBSManager.java
+END
+ClassBBSManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/L2PSProjectHi5SVN/!svn/ver/625/trunk/L2PS_Server/java/com/l2jserver/gameserver/communitybbs/Managers/ClassBBSManager.java
+END
