@@ -246,9 +246,9 @@ public class CharInfo extends L2GameServerPacket
 			writeD(_activeChar.getVisualArmor(VisualArmors.Armor, false) != null ? _activeChar.getVisualArmor(VisualArmors.Armor, false).getItemId() : 0x00);
 			writeD(_activeChar.getVisualArmor(VisualArmors.Legs, false) != null ? _activeChar.getVisualArmor(VisualArmors.Legs, false).getItemId() : 0x00);
 			writeD(_activeChar.getVisualArmor(VisualArmors.Feet, false) != null ? _activeChar.getVisualArmor(VisualArmors.Feet, false).getItemId() : 0x00);
-			//writeD(_activeChar.getVisualArmor(VisualArmors.Cloak, false) != null ? _activeChar.getVisualArmor(VisualArmors.Cloak, false).getItemId() : 0x00);
+			writeD(_activeChar.getVisualArmor(VisualArmors.Cloak, false) != null ? _activeChar.getVisualArmor(VisualArmors.Cloak, false).getItemId() : 0x00);
 			}
-			writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_CLOAK));
+			//writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_CLOAK));
 			writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_RHAND));
 			writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_HAIR));
 			writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_HAIR2));

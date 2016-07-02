@@ -1166,4 +1166,8 @@ public abstract class L2Item
 	{
 		return null;
 	}
+
+    public int setItemId(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

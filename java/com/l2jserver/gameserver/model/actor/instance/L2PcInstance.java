@@ -16491,35 +16491,36 @@ public final class L2PcInstance extends L2Playable
 		try
 		{
 			Connection con = L2DatabaseFactory.getInstance().getConnection();
-                        _log.log(Level.WARNING, "con restore");
+                      //  _log.log(Level.WARNING, "con restore");
 			PreparedStatement statement = con.prepareStatement("SELECT * FROM character_visual_armors WHERE charId=?");
 			statement.setInt(1, getObjectId());
 			ResultSet rset = statement.executeQuery();
 			if (rset.next())
 			{
 				isUsingVisualArmors(rset.getBoolean("isUsingVisual"));
-                                _log.log(Level.WARNING, "con using");
+                               // _log.log(Level.WARNING, "con using");
 				setVisualArmor(VisualArmors.Armor, rset.getInt("armor"));
-                                                                _log.log(Level.WARNING, "con armor {0}", rset.getInt("armor"));
+                                                               // _log.log(Level.WARNING, "con armor {0}", rset.getInt("armor"));
 				setVisualArmor(VisualArmors.Legs, rset.getInt("leggings"));
-                                                                _log.log(Level.WARNING, "con leg");
+                                                            //    _log.log(Level.WARNING, "con leg");
 				setVisualArmor(VisualArmors.Feet, rset.getInt("feet"));
-                                                                _log.log(Level.WARNING, "con feet");
+                                                              //  _log.log(Level.WARNING, "con feet");
 				setVisualArmor(VisualArmors.Gloves, rset.getInt("gloves"));
-                                                                _log.log(Level.WARNING, "con glv");
+                                                           //     _log.log(Level.WARNING, "con glv");
 				setVisualArmor(VisualArmors.LHand, rset.getInt("lHand"));
-                                                                _log.log(Level.WARNING, "con lh");
+                                                         //       _log.log(Level.WARNING, "con lh");
 				setVisualArmor(VisualArmors.Sword, rset.getInt("sword"));
-                                                                _log.log(Level.WARNING, "con sw");
+                                                          //      _log.log(Level.WARNING, "con sw");
 				setVisualArmor(VisualArmors.Bow, rset.getInt("bow"));
-                                                                _log.log(Level.WARNING, "con bow");
+                                                        //        _log.log(Level.WARNING, "con bow");
 				setVisualArmor(VisualArmors.Pole, rset.getInt("pole"));
-                                                                _log.log(Level.WARNING, "con pole");
+                                                       //         _log.log(Level.WARNING, "con pole");
 				setVisualArmor(VisualArmors.Dual, rset.getInt("dualWeapons"));
-                                                                _log.log(Level.WARNING, "con dual");
+                                                        //        _log.log(Level.WARNING, "con dual");
 				setVisualArmor(VisualArmors.BigSword, rset.getInt("bigSword"));
-                                                                _log.log(Level.WARNING, "con big");
+                                                         //       _log.log(Level.WARNING, "con big");
 			}
+                        con.close();
 		}
 		catch (Exception e)
 		{
@@ -16536,8 +16537,12 @@ public final class L2PcInstance extends L2Playable
 			statement.setInt(1, getObjectId());
 			try (ResultSet rset = statement.executeQuery()) {
 				if (rset.next())
+                                {
+                                        con.close();
 					return true;
+                                }
 			}
+                        con.close();
 		}
 		catch (Exception e)
 		{
@@ -16568,7 +16573,9 @@ public final class L2PcInstance extends L2Playable
 			statement.setInt(11, getVisualArmor(VisualArmors.LHand, true) == null ? 0 : getVisualArmor(VisualArmors.LHand, true).getItemId());
 			statement.setInt(12, getObjectId());
 			statement.execute();
+                        con.close();
 		}
+                
 		catch (Exception e)
 		{
 			_log.log(Level.WARNING, "Could not store character " + getObjectId() + " visual armors data: ", e);
@@ -16755,7 +16762,7 @@ public final class L2PcInstance extends L2Playable
 				}
 				else if (isUsingVisualArmors() || forceShow) {
 					L2Item armor = getVisualArmor(VisualArmors.Armor, true);
-					if (armor.getBodyPart() == L2Item.SLOT_FULL_ARMOR)
+					if (armor.getBodyPart() == L2Item.SLOT_FULL_ARMOR || armor.getBodyPart() == L2Item.SLOT_ALLDRESS)
 						return null;
 					if (visualArmors[position.ordinal()] > 0)
 						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
@@ -16769,8 +16776,14 @@ public final class L2PcInstance extends L2Playable
 						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
 					return null;
 				}
-				else if ((isUsingVisualArmors() || forceShow) && visualArmors[position.ordinal()] > 0)
-					return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+				else if (isUsingVisualArmors() || forceShow) {
+					L2Item feet = getVisualArmor(VisualArmors.Armor, true);
+					if (feet.getBodyPart() == L2Item.SLOT_ALLDRESS)
+						return null;
+					if (visualArmors[position.ordinal()] > 0)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_FEET).getItem();
+				}
 				else
 					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_FEET).getItem();
 			case Gloves:
@@ -16779,8 +16792,14 @@ public final class L2PcInstance extends L2Playable
 						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
 					return null;
 				}
-				else if ((isUsingVisualArmors() || forceShow) && visualArmors[position.ordinal()] > 0)
-					return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+				else if (isUsingVisualArmors() || forceShow) {
+					L2Item gloves = getVisualArmor(VisualArmors.Armor, true);
+					if (gloves.getBodyPart() == L2Item.SLOT_ALLDRESS)
+						return null;
+					if (visualArmors[position.ordinal()] > 0)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_GLOVES).getItem();
+				}
 				else
 					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_GLOVES).getItem();
 			case Cloak:
@@ -16789,8 +16808,14 @@ public final class L2PcInstance extends L2Playable
 						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
 					return null;
 				}
-				else if ((isUsingVisualArmors() || forceShow) && visualArmors[position.ordinal()] > 0)
-					return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+				else if (isUsingVisualArmors() || forceShow) {
+					L2Item cloak = getVisualArmor(VisualArmors.Armor, true);
+					if (cloak.getBodyPart() == L2Item.SLOT_ALLDRESS)
+						return null;
+					if (visualArmors[position.ordinal()] > 0)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_CLOAK).getItem();
+				}
 				else
 					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_CLOAK).getItem();
 		}
