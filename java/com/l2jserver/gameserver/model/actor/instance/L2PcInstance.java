@@ -7941,6 +7941,7 @@ public final class L2PcInstance extends L2Playable
 			}
 			
 			player.restoreZoneRestartLimitTime();
+                        player.restoreVisualArmors();
 			
 			player._account = new L2Account(player.getAccountName());
 		}
@@ -8276,6 +8277,7 @@ public final class L2PcInstance extends L2Playable
 		storeCharSub();
 		storeEffect(storeActiveEffects);
 		storeItemReuseDelay();
+                storeVisualArmors();
 		transformInsertInfo();
 		if (Config.STORE_RECIPE_SHOPLIST)
 		{
@@ -16484,7 +16486,316 @@ public final class L2PcInstance extends L2Playable
 	{
 		GLOBAL_PROFESSION_CHANGE_LISTENERS.remove(listener);
 	}
+	private void restoreVisualArmors()
+	{
+		try
+		{
+			Connection con = L2DatabaseFactory.getInstance().getConnection();
+                        _log.log(Level.WARNING, "con restore");
+			PreparedStatement statement = con.prepareStatement("SELECT * FROM character_visual_armors WHERE charId=?");
+			statement.setInt(1, getObjectId());
+			ResultSet rset = statement.executeQuery();
+			if (rset.next())
+			{
+				isUsingVisualArmors(rset.getBoolean("isUsingVisual"));
+                                _log.log(Level.WARNING, "con using");
+				setVisualArmor(VisualArmors.Armor, rset.getInt("armor"));
+                                                                _log.log(Level.WARNING, "con armor {0}", rset.getInt("armor"));
+				setVisualArmor(VisualArmors.Legs, rset.getInt("leggings"));
+                                                                _log.log(Level.WARNING, "con leg");
+				setVisualArmor(VisualArmors.Feet, rset.getInt("feet"));
+                                                                _log.log(Level.WARNING, "con feet");
+				setVisualArmor(VisualArmors.Gloves, rset.getInt("gloves"));
+                                                                _log.log(Level.WARNING, "con glv");
+				setVisualArmor(VisualArmors.LHand, rset.getInt("lHand"));
+                                                                _log.log(Level.WARNING, "con lh");
+				setVisualArmor(VisualArmors.Sword, rset.getInt("sword"));
+                                                                _log.log(Level.WARNING, "con sw");
+				setVisualArmor(VisualArmors.Bow, rset.getInt("bow"));
+                                                                _log.log(Level.WARNING, "con bow");
+				setVisualArmor(VisualArmors.Pole, rset.getInt("pole"));
+                                                                _log.log(Level.WARNING, "con pole");
+				setVisualArmor(VisualArmors.Dual, rset.getInt("dualWeapons"));
+                                                                _log.log(Level.WARNING, "con dual");
+				setVisualArmor(VisualArmors.BigSword, rset.getInt("bigSword"));
+                                                                _log.log(Level.WARNING, "con big");
+			}
+		}
+		catch (Exception e)
+		{
+			_log.log(Level.WARNING, "Could not restore " + getObjectId() + " visual armors data " + e.getMessage(), e);
+		}
+	}
 	
+	private boolean checkIfExist()
+	{
+		try
+		{
+			Connection con = L2DatabaseFactory.getInstance().getConnection();
+			PreparedStatement statement = con.prepareStatement("SELECT charId FROM character_visual_armors WHERE charId=?");
+			statement.setInt(1, getObjectId());
+			try (ResultSet rset = statement.executeQuery()) {
+				if (rset.next())
+					return true;
+			}
+		}
+		catch (Exception e)
+		{
+			_log.log(Level.WARNING, "Could not restore " + getObjectId() + " visual armors data " + e.getMessage(), e);
+		}
+		return false;
+	}
+	
+	private void storeVisualArmors()
+	{
+		if (!checkIfExist())
+			insertVisualArmors();
+		//UPDATE characters SET vitality_points=?,language=? WHERE charId=?";
+		try
+		{
+			Connection con = L2DatabaseFactory.getInstance().getConnection();
+			PreparedStatement statement = con.prepareStatement("UPDATE character_visual_armors SET isUsingVisual=?,armor=?,leggings=?,feet=?,gloves=?,sword=?,bow=?,pole=?,dualWeapons=?,bigSword=?,lHand=? WHERE charId=?");
+			statement.setInt(1, isUsingVisualArmors() ? 1 : 0);
+			statement.setInt(2, getVisualArmor(VisualArmors.Armor, true) == null ? 0 : getVisualArmor(VisualArmors.Armor, true).getItemId());
+			statement.setInt(3, getVisualArmor(VisualArmors.Legs, true) == null ? 0 : getVisualArmor(VisualArmors.Legs, true).getItemId());
+			statement.setInt(4, getVisualArmor(VisualArmors.Feet, true) == null ? 0 : getVisualArmor(VisualArmors.Feet, true).getItemId());
+			statement.setInt(5, getVisualArmor(VisualArmors.Gloves, true) == null ? 0 : getVisualArmor(VisualArmors.Gloves, true).getItemId());
+			statement.setInt(6, getVisualArmor(VisualArmors.Sword, true) == null ? 0 : getVisualArmor(VisualArmors.Sword, true).getItemId());
+			statement.setInt(7, getVisualArmor(VisualArmors.Bow, true) == null ? 0 : getVisualArmor(VisualArmors.Bow, true).getItemId());
+			statement.setInt(8, getVisualArmor(VisualArmors.Pole, true) == null ? 0 : getVisualArmor(VisualArmors.Pole, true).getItemId());
+			statement.setInt(9, getVisualArmor(VisualArmors.Dual, true) == null ? 0 : getVisualArmor(VisualArmors.Dual, true).getItemId());
+			statement.setInt(10, getVisualArmor(VisualArmors.BigSword, true) == null ? 0 : getVisualArmor(VisualArmors.BigSword, true).getItemId());
+			statement.setInt(11, getVisualArmor(VisualArmors.LHand, true) == null ? 0 : getVisualArmor(VisualArmors.LHand, true).getItemId());
+			statement.setInt(12, getObjectId());
+			statement.execute();
+		}
+		catch (Exception e)
+		{
+			_log.log(Level.WARNING, "Could not store character " + getObjectId() + " visual armors data: ", e);
+		}
+	}
+
+	private boolean insertVisualArmors()
+	{
+		try
+		{
+			Connection con = L2DatabaseFactory.getInstance().getConnection();
+			PreparedStatement statement = con.prepareStatement("INSERT INTO character_visual_armors (charId) values (?)");
+			statement.setInt(1, getObjectId());
+			statement.executeUpdate();
+		}
+		catch (Exception e)
+		{
+			_log.log(Level.SEVERE, "Could not insert character " + getObjectId() + " visual armors data: " + e.getMessage(), e);
+			return false;
+		}
+		return true;
+	}
+	
+	boolean isUsingVisualArmors = false;
+
+	public boolean isUsingVisualArmors() {
+		return isUsingVisualArmors;
+	}
+
+	public void isUsingVisualArmors(boolean _isUsingVisualArmors) {
+        	isUsingVisualArmors = _isUsingVisualArmors;
+	}
+
+	public enum VisualArmors {
+		Sword,
+		Bow,
+		Pole,
+		Dual,
+		BigSword,
+		RHand,
+		LHand,
+		Armor,
+		Legs,
+		Feet,
+		Gloves,
+		Cloak
+	}
+
+	int visualArmors[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+
+	public void setVisualArmor(VisualArmors position, int itemId) { 
+		visualArmors[position.ordinal()] = itemId;
+//                String s = Integer.toString(itemId);
+//                String f = position.toString();
+ //               _log.log(Level.WARNING, s, f);
+	}
+
+	public L2Item getVisualArmor(VisualArmors position, boolean forceShow) {
+		switch (position) {
+			case Sword:
+				if (visualArmors[VisualArmors.Sword.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.Sword.ordinal()]);
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND) != null)
+					switch (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getWeaponItem().getItemType()) {
+						case SWORD:
+						case BLUNT:
+						case DAGGER:
+						case ETC:
+						case FIST:
+						case RAPIER:
+							return getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getItem();
+					}
+				return null;
+			case Bow:
+				if (visualArmors[VisualArmors.Bow.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.Bow.ordinal()]);
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND) != null)
+					switch (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getWeaponItem().getItemType()) {
+						case BOW:
+						case CROSSBOW:
+							return getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getItem();
+					}
+				return null;
+			case Pole:
+				if (visualArmors[VisualArmors.Pole.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.Pole.ordinal()]);
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND) != null)
+					switch (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getWeaponItem().getItemType()) {
+						case POLE:
+							return getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getItem();
+					}
+				return null;
+			case BigSword:
+				if (visualArmors[VisualArmors.BigSword.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.BigSword.ordinal()]);
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND) != null)
+					switch (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getWeaponItem().getItemType()) {
+						case ANCIENTSWORD:
+						case BIGBLUNT:
+						case BIGSWORD:
+							return getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getItem();
+					}
+				return null;
+			case Dual:
+				if (visualArmors[VisualArmors.Dual.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.Dual.ordinal()]);
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND) != null)
+					switch (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getWeaponItem().getItemType()) {
+						case DUAL:
+						case DUALFIST:
+						case DUALDAGGER:
+							return getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getItem();
+					}
+				return null;
+			case RHand:
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND) == null && !forceShow)
+					return null;
+				else if (isUsingVisualArmors() || forceShow) {
+					switch (getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getWeaponItem().getItemType()) {
+						case SWORD:
+						case BLUNT:
+						case DAGGER:
+						case ETC:
+						case FIST:
+						case RAPIER:
+							if (visualArmors[VisualArmors.Sword.ordinal()] > 0)
+								return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.Sword.ordinal()]);
+							break;
+						case BOW:
+						case CROSSBOW:
+							if (visualArmors[VisualArmors.Bow.ordinal()] > 0)
+								return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.Bow.ordinal()]);
+							break;
+						case POLE:
+							if (visualArmors[VisualArmors.Pole.ordinal()] > 0)
+								return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.Pole.ordinal()]);
+							break;
+						case DUAL:
+						case DUALFIST:
+						case DUALDAGGER:
+							if (visualArmors[VisualArmors.Dual.ordinal()] > 0)
+								return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.Dual.ordinal()]);
+							break;
+						case ANCIENTSWORD:
+						case BIGBLUNT:
+						case BIGSWORD:
+							if (visualArmors[VisualArmors.BigSword.ordinal()] > 0)
+								return ItemTable.getInstance().getTemplate(visualArmors[VisualArmors.BigSword.ordinal()]);
+							break;
+						default:
+							return getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getItem();
+					}
+				}
+				return getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND).getItem();
+			case LHand:
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_LHAND) == null) {
+					if (visualArmors[position.ordinal()] > 0 && forceShow)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return null;
+				}
+				else if ((isUsingVisualArmors() || forceShow) && visualArmors[position.ordinal()] > 0) {
+					L2Item item = ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_LHAND).isArmor() && item instanceof L2Armor)
+						return item;
+					return null;
+				}
+				else
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_LHAND).getItem();
+			case Armor:
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_CHEST) == null) {
+					if (visualArmors[position.ordinal()] > 0 && forceShow)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return null;
+				}
+				else if ((isUsingVisualArmors() || forceShow) && visualArmors[position.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+				else
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_CHEST).getItem();
+			case Legs:
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_LEGS) == null) {
+					if (visualArmors[position.ordinal()] > 0 && forceShow)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return null;
+				}
+				else if (isUsingVisualArmors() || forceShow) {
+					L2Item armor = getVisualArmor(VisualArmors.Armor, true);
+					if (armor.getBodyPart() == L2Item.SLOT_FULL_ARMOR)
+						return null;
+					if (visualArmors[position.ordinal()] > 0)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_LEGS).getItem();
+				}
+				else
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_LEGS).getItem();
+			case Feet:
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_FEET) == null) {
+					if (visualArmors[position.ordinal()] > 0 && forceShow)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return null;
+				}
+				else if ((isUsingVisualArmors() || forceShow) && visualArmors[position.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+				else
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_FEET).getItem();
+			case Gloves:
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_GLOVES) == null) {
+					if (visualArmors[position.ordinal()] > 0 && forceShow)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return null;
+				}
+				else if ((isUsingVisualArmors() || forceShow) && visualArmors[position.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+				else
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_GLOVES).getItem();
+			case Cloak:
+				if (getInventory().getPaperdollItem(Inventory.PAPERDOLL_CLOAK) == null) {
+					if (visualArmors[position.ordinal()] > 0 && forceShow)
+						return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+					return null;
+				}
+				else if ((isUsingVisualArmors() || forceShow) && visualArmors[position.ordinal()] > 0)
+					return ItemTable.getInstance().getTemplate(visualArmors[position.ordinal()]);
+				else
+					return getInventory().getPaperdollItem(Inventory.PAPERDOLL_CLOAK).getItem();
+		}
+		return null;
+	}
 	/**
 	 * Adds a event listener.
 	 * @param listener

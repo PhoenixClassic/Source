@@ -32,6 +32,8 @@ import com.l2jserver.gameserver.handler.AdminCommandHandler;
 import com.l2jserver.gameserver.handler.BypassHandler;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.handler.IBypassHandler;
+import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
+import com.l2jserver.gameserver.handler.VoicedCommandHandler;
 import com.l2jserver.gameserver.instancemanager.event_engine.Interface;
 import com.l2jserver.gameserver.instancemanager.rank_system.rankpvpsystem.RankPvpSystemPlayerInfo;
 import com.l2jserver.gameserver.model.L2CharPosition;
@@ -133,6 +135,17 @@ public final class RequestBypassToServer extends L2GameClientPacket
 					
 					ach.useAdminCommand(_command, activeChar);
 				}
+			}
+			else if (_command.startsWith(".")) {
+				String command = _command.substring(1).split(" ")[0];
+				String params = _command.substring(1).split(" ").length > 1 ? _command.substring(1).split(" ")[1] : "";
+				IVoicedCommandHandler vch = VoicedCommandHandler.getInstance().getHandler(command);
+				if (vch == null)
+				{
+					_log.warning(activeChar + " requested not registered admin command '" + command + "'");
+					return;
+				}
+				vch.useVoicedCommand(command, activeChar, params);
 			}
 			else if (_command.equals("come_here") && activeChar.isGM())
 			{

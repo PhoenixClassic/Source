@@ -22,6 +22,7 @@ import com.l2jserver.Config;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.instancemanager.CursedWeaponsManager;
 import com.l2jserver.gameserver.model.PcCondOverride;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance.VisualArmors;
 import com.l2jserver.gameserver.model.actor.L2Decoy;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.templates.L2NpcTemplate;
@@ -223,8 +224,10 @@ public class CharInfo extends L2GameServerPacket
 			}
 			else
 			{
-				writeD(_airShipHelm == 0 ? _inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_RHAND) : _airShipHelm);
-				writeD(_airShipHelm == 0 ? _inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_LHAND) : 0);
+				//writeD(_airShipHelm == 0 ? _inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_RHAND) : _airShipHelm);
+				//writeD(_airShipHelm == 0 ? _inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_LHAND) : 0);
+                                writeD(_activeChar.getVisualArmor(VisualArmors.RHand, false) != null ? _activeChar.getVisualArmor(VisualArmors.RHand, false).getItemId() : 0x00);
+                                writeD(_activeChar.getVisualArmor(VisualArmors.LHand, false) != null ? _activeChar.getVisualArmor(VisualArmors.LHand, false).getItemId() : 0x00);
 			}
 			if (_activeChar.isInOlympiadMode() && (Config.OLY_VISUAL_RESTRICTION))
 			{
@@ -235,10 +238,15 @@ public class CharInfo extends L2GameServerPacket
 			}
 			else
 			{
-				writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_GLOVES));
+/*				writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_GLOVES));
 				writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_CHEST));
 				writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_LEGS));
-				writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_FEET));
+				writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_FEET));*/
+			writeD(_activeChar.getVisualArmor(VisualArmors.Gloves, false) != null ? _activeChar.getVisualArmor(VisualArmors.Gloves, false).getItemId() : 0x00);
+			writeD(_activeChar.getVisualArmor(VisualArmors.Armor, false) != null ? _activeChar.getVisualArmor(VisualArmors.Armor, false).getItemId() : 0x00);
+			writeD(_activeChar.getVisualArmor(VisualArmors.Legs, false) != null ? _activeChar.getVisualArmor(VisualArmors.Legs, false).getItemId() : 0x00);
+			writeD(_activeChar.getVisualArmor(VisualArmors.Feet, false) != null ? _activeChar.getVisualArmor(VisualArmors.Feet, false).getItemId() : 0x00);
+			//writeD(_activeChar.getVisualArmor(VisualArmors.Cloak, false) != null ? _activeChar.getVisualArmor(VisualArmors.Cloak, false).getItemId() : 0x00);
 			}
 			writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_CLOAK));
 			writeD(_inv.getPaperdollItemDisplayId(Inventory.PAPERDOLL_RHAND));
