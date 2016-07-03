@@ -14,6 +14,8 @@
  */
 package com.l2jserver.gameserver.instancemanager.event_engine.function;
 
+import com.l2jserver.L2DatabaseFactory;
+import static com.l2jserver.gameserver.handler.IVoicedCommandHandler._log;
 import java.util.Map;
 
 import javolution.util.FastList;
@@ -25,6 +27,11 @@ import com.l2jserver.gameserver.instancemanager.event_engine.ManagerNpc;
 import com.l2jserver.gameserver.instancemanager.event_engine.container.EventContainer;
 import com.l2jserver.gameserver.instancemanager.event_engine.io.Out;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.Clock;
+//import static com.l2jserver.gameserver.model.stats.BaseStats.NULL;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.logging.Level;
 
 public class Vote
 {
@@ -84,7 +91,44 @@ public class Vote
 				{
 					if (!popupOffList.contains(playerId))
 					{
-						ManagerNpc.getInstance().showVoteList(playerId);
+                                            try
+                                            {
+                                                Connection con = L2DatabaseFactory.getInstance().getConnection();
+                                                //PreparedStatement statement = con.prepareStatement("SELECT (charId, eventpop) FROM character_custom WHERE (?,?)");
+                                                PreparedStatement statement = con.prepareStatement("SELECT * FROM character_custom WHERE charId=?");
+                                                statement.setInt(1, playerId);
+                                                //statement.setInt(2, 0);
+                                                ResultSet rset = statement.executeQuery();
+                                                if (rset.next())
+                                                {                                                        
+                                                    switch (rset.getInt("eventpop")) {
+                                                        case 0:
+                                                            //_log.log(Level.WARNING, "Case 0");
+                                                            ManagerNpc.getInstance().showVoteList(playerId);
+                                                            break;
+                                                        case 1:
+                                                            //_log.log(Level.WARNING, "Case 1");
+                                                            break;
+                                                        default:
+                                                            break;
+                                                    }
+                                                    
+                                                }
+                                                else
+                                                {
+                                                     Connection nemcon = L2DatabaseFactory.getInstance().getConnection();
+                                                     PreparedStatement nemstatement = nemcon.prepareStatement("INSERT INTO character_custom(charId,eventpop) VALUES (?,?)");
+                                                     nemstatement.setInt(1, playerId);
+                                                     nemstatement.setInt(2, 0);
+                                                     nemstatement.executeUpdate();
+                                                     nemcon.close(); 
+                                                }
+                                                con.close();
+                                            }
+                                            catch (Exception e)
+                                            {
+                                           	_log.log(Level.WARNING, "Exception hiba " + e.getMessage(), e);
+                                            }
 					}
 				}
 			}
@@ -94,14 +138,13 @@ public class Vote
 				case 1800:
 				case 1200:
 				case 600:
+                                    	announce("" + (counter / 60) + " minutes left to vote.");
+					break;
 				case 300:
+                                    	announce("" + (counter / 60) + " minutes left to vote.");
+					break;
 				case 60:
 					announce("" + (counter / 60) + " minutes left to vote.");
-					break;
-				case 30:
-				case 10:
-				case 5:
-					announce("" + counter + " seconds left to vote.");
 					break;
 			}
 		}

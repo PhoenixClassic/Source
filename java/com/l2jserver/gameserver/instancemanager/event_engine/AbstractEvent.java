@@ -143,6 +143,7 @@ public abstract class AbstractEvent
 					announce("" + (counter / 60) + " minutes left to register.");
 					break;
 				case 30:
+                                    
 				case 10:
 				case 5:
 					announce("" + counter + " seconds left to register.");
