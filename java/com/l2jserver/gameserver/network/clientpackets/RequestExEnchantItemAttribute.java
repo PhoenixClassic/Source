@@ -16,10 +16,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
+//modified by Light & Savay Syntax egy ganaj
 package com.l2jserver.gameserver.network.clientpackets;
 
 import com.l2jserver.Config;
+import java.util.*;
+//import com.l2jserver.gameserver.cache.HtmCache;
+//import com.l2jserver.gameserver.instancemanager.event_engine.io.Out;
+//import com.l2jserver.gameserver.instancemanager.event_engine.model.ManagerNpcHtml;
 import com.l2jserver.gameserver.model.Elementals;
+//import com.l2jserver.gameserver.instancemanager.event_engine.io.In;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.items.instance.L2ItemInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
@@ -30,28 +36,90 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.network.serverpackets.UserInfo;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
+//import javolution.text.TextBuilder;
 
 public class RequestExEnchantItemAttribute extends L2GameClientPacket
 {
+        L2ItemInstance item2 = null;
+        L2ItemInstance stone2 = null;
 	private static final String _C__D0_35_REQUESTEXENCHANTITEMATTRIBUTE = "[C] D0:35 RequestExEnchantItemAttribute";
-	
+	//private static final int c = 0;
 	private int _objectId;
-	
+        public static int k;
+        private static Map <Integer,Integer> map = new HashMap<Integer,Integer>();
+        private static List<Integer> list = new ArrayList<Integer>();
+        
 	@Override
 	protected void readImpl()
 	{
 		_objectId = readD();
 	}
-	
+        
+        public int attridb(int player, int i)
+        {
+            	//L2PcInstance player = getClient().getActiveChar();
+                int l = player;
+                //_log.log(Level.WARNING, "attridb" + Integer.toString(l));
+                if (map.isEmpty())
+                {
+                    map.put(l,i);
+                    list.add(l);
+                    k = i;
+                    //_log.log(Level.WARNING, "return1");
+                    return k;
+                }
+                    for(int m=0; m<=list.size(); m++)   
+                    {
+                        //_log.log(Level.WARNING, "listsize " + Integer.toString(list.size()));
+                        if(list.size()!=m && list.get(m)==l)
+                        {
+                            int log = map.get(list.get(m));
+                            //_log.log(Level.WARNING, "oldvalue " + Integer.toString(log));
+                            //_log.log(Level.WARNING, "newvalue " + Integer.toString(i));
+                            map.put(l,i);
+                            k = i;
+                            //_log.log(Level.WARNING, "return2");
+                            return k;
+                        }
+                        if(list.size()==m)
+                        {
+                            map.put(l,i);
+                            list.add(l);
+                            k = i;
+                            //_log.log(Level.WARNING, "return3");
+                            return k;
+                        }
+                    }
+           // _log.log(Level.WARNING, "return4");
+            k=i;
+            return k;
+        }
+               
 	@Override
 	protected void runImpl()
 	{
+            //int n;
+                
 		L2PcInstance player = getClient().getActiveChar();
+                int id = player.getObjectId();
+              //  _log.log(Level.WARNING, "clientid" + Integer.toString(id));
+                int iddb = map.get(id);
+                //_log.log(Level.WARNING, "almagetter" +k); 
+                //In a = new In ();
+                //k = a.getalma();
+		//htmContent = htmReplace(htmContent, "tableId");
+                //int k=1;
+                if (iddb<0 || iddb>300)
+                {
+                    return;
+                }
+                for (int j=0;j<iddb;j++)
+                {                
 		if (player == null)
 		{
 			return;
 		}
-		
+
 		if (_objectId == 0xFFFFFFFF)
 		{
 			// Player canceled enchant
@@ -82,12 +150,27 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 			player.sendMessage("Enchanting items is not allowed during a trade.");
 			return;
 		}
-		
+
+                    //_log.log(Level.WARNING, "alma" +j);            
 		L2ItemInstance item = player.getInventory().getItemByObjectId(_objectId);
 		L2ItemInstance stone = player.getActiveEnchantAttrItem();
+
+                if (j==0)
+                {
+                    item2 = item;
+                    stone2 = stone;
+                    //_log.log(Level.WARNING, "item2=item"); 
+                }
+                if (j!=0)
+                {
+                    item = item2;
+                    stone = stone2;
+                   // _log.log(Level.WARNING, "item=item2"); 
+                }
 		if ((item == null) || (stone == null))
 		{
 			player.setActiveEnchantAttrItem(null);
+                        //_log.log(Level.WARNING, "return1"); 
 			return;
 		}
 		
@@ -95,6 +178,7 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 		{
 			player.sendPacket(SystemMessageId.ELEMENTAL_ENHANCE_REQUIREMENT_NOT_SUFFICIENT);
 			player.setActiveEnchantAttrItem(null);
+                        //_log.log(Level.WARNING, "return2"); 
 			return;
 		}
 		
@@ -106,6 +190,7 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 				if (item.getOwnerId() != player.getObjectId())
 				{
 					player.setActiveEnchantAttrItem(null);
+                                        //_log.log(Level.WARNING, "return3"); 
 					return;
 				}
 				break;
@@ -114,6 +199,7 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 			{
 				player.setActiveEnchantAttrItem(null);
 				Util.handleIllegalPlayerAction(player, "Player " + player.getName() + " tried to use enchant Exploit!", Config.DEFAULT_PUNISH);
+                               // _log.log(Level.WARNING, "return4"); 
 				return;
 			}
 		}
@@ -136,6 +222,7 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 		{
 			player.sendPacket(SystemMessageId.ANOTHER_ELEMENTAL_POWER_ALREADY_ADDED);
 			player.setActiveEnchantAttrItem(null);
+                        //_log.log(Level.WARNING, "return5"); 
 			return;
 		}
 		
@@ -148,7 +235,8 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 				{
 					player.setActiveEnchantAttrItem(null);
 					Util.handleIllegalPlayerAction(player, "Player " + player.getName() + " tried to add oposite attribute to item!", Config.DEFAULT_PUNISH);
-					return;
+					//_log.log(Level.WARNING, "return6"); 
+                                        return;
 				}
 			}
 		}
@@ -164,6 +252,7 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 		{
 			player.sendPacket(SystemMessageId.ELEMENTAL_ENHANCE_CANCELED);
 			player.setActiveEnchantAttrItem(null);
+                        //_log.log(Level.WARNING, "return7"); 
 			return;
 		}
 		
@@ -172,9 +261,13 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 			player.sendPacket(SystemMessageId.NOT_ENOUGH_ITEMS);
 			Util.handleIllegalPlayerAction(player, "Player " + player.getName() + " tried to attribute enchant with a stone he doesn't have", Config.DEFAULT_PUNISH);
 			player.setActiveEnchantAttrItem(null);
+                       // _log.log(Level.WARNING, "return8"); 
 			return;
 		}
+   
+                
 		boolean success = false;
+
 		switch (Elementals.getItemElemental(stoneId)._type)
 		{
 			case Stone:
@@ -231,7 +324,7 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 					sm.addElemental(Elementals.getOppositeElement(realElement));
 				}
 			}
-			player.sendPacket(sm);
+			player.sendPacket(sm);                       
 			item.setElementAttr(elementToAdd, newPower);
 			if (item.isEquipped())
 			{
@@ -252,6 +345,7 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
 		player.sendPacket(new UserInfo(player));
 		player.sendPacket(new ExBrExtraUserInfo(player));
 		player.setActiveEnchantAttrItem(null);
+        }
 	}
 	
 	public int getLimit(L2ItemInstance item, int sotneId)

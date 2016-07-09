@@ -228,6 +228,18 @@ public class L2VoteManagerInstance extends L2Npc
 				PledgeCrestVote packet = new PledgeCrestVote(imgId, DDSConverter.convertToDDS(captcha).array());
 				activeChar.sendPacket(packet);
 			}
+                        //if (imgId == 65534)
+			//{
+			//	File captcha = new File("data/images/trait.png");
+				//PledgeCrestVote packet = new PledgeCrestVote(imgId, DDSConverter.convertToDDS(captcha).array());
+			///	activeChar.sendPacket(packet);
+			//}
+                      //  if (imgId == 65535)
+			//{
+			//	File captcha = new File("data/images/mas.png");
+			//	PledgeCrestVote packet = new PledgeCrestVote(imgId, DDSConverter.convertToDDS(captcha).array());
+			//	activeChar.sendPacket(packet);
+			//}
 		}
 		catch (Exception e)
 		{

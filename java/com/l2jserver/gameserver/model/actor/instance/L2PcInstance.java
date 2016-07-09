@@ -16590,6 +16590,7 @@ public final class L2PcInstance extends L2Playable
 			PreparedStatement statement = con.prepareStatement("INSERT INTO character_visual_armors (charId) values (?)");
 			statement.setInt(1, getObjectId());
 			statement.executeUpdate();
+                        con.close();
 		}
 		catch (Exception e)
 		{

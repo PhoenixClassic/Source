@@ -8,6 +8,7 @@ import com.l2jserver.gameserver.communitybbs.Managers.ClanBBSManager;
 import com.l2jserver.gameserver.communitybbs.Managers.ClassBBSManager;
 import com.l2jserver.gameserver.communitybbs.Managers.ContactManager;
 import com.l2jserver.gameserver.communitybbs.Managers.EnchantBBSManager;
+import com.l2jserver.gameserver.communitybbs.Managers.MasteryBBSManager;
 import com.l2jserver.gameserver.communitybbs.Managers.PostBBSManager;
 import com.l2jserver.gameserver.communitybbs.Managers.RegionBBSManager;
 import com.l2jserver.gameserver.communitybbs.Managers.ServerInfoManager;
@@ -151,6 +152,10 @@ public class CommunityBoard
 				else if (command.startsWith("_bbsloc"))
 				{
 					RegionBBSManager.getInstance().parsecmd(command, activeChar);
+				}
+                                else if (command.startsWith("_bbsmastery"))
+				{
+					MasteryBBSManager.getInstance().parsecmd(command, activeChar);
 				}
 				else if (command.startsWith("_bbsstat;"))
 				{

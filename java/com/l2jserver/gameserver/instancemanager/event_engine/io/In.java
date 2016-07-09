@@ -12,6 +12,8 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
+
+//modified by Light & Savay Syntax egy ganaj
 package com.l2jserver.gameserver.instancemanager.event_engine.io;
 
 import com.l2jserver.gameserver.instancemanager.event_engine.AbstractEvent.AbstractPhase;
@@ -24,10 +26,14 @@ import com.l2jserver.gameserver.instancemanager.event_engine.function.Buffer;
 import com.l2jserver.gameserver.instancemanager.event_engine.function.Scheduler;
 import com.l2jserver.gameserver.instancemanager.event_engine.function.Vote;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.EventPlayer;
+//import static com.l2jserver.gameserver.model.actor.L2Character._log;
+import com.l2jserver.gameserver.network.clientpackets.RequestExEnchantItemAttribute;
+//import com.l2jserver.gameserver.network.clientpackets.RequestExEnchantItemAttribute;
+//import java.util.logging.Level;
 
 public class In
 {
-	
+    //int seged = 0;	
 	private static class SingletonHolder
 	{
 		protected static final In _instance = new In();
@@ -366,6 +372,36 @@ public class In
 		{
 			ManagerNpc.getInstance().showRunningList(player);
 		}
+                else if (command.equals("attridb5"))
+		{
+                        RequestExEnchantItemAttribute attridb5 = new RequestExEnchantItemAttribute();
+                        //commitforthewin(seged = Integer.parseInt(command));
+                        attridb5.attridb(player, 5);
+		}
+                else if (command.equals("attridb10"))
+		{
+                        RequestExEnchantItemAttribute attridb5 = new RequestExEnchantItemAttribute();
+                        //commitforthewin(seged = Integer.parseInt(command));
+                        attridb5.attridb(player, 10);
+		}
+                else if (command.equals("attridb25"))
+		{
+                        RequestExEnchantItemAttribute attridb5 = new RequestExEnchantItemAttribute();
+                        //commitforthewin(seged = Integer.parseInt(command));
+                        attridb5.attridb(player, 25);
+		}
+                else if (command.equals("attridb50"))
+		{
+                        RequestExEnchantItemAttribute attridb5 = new RequestExEnchantItemAttribute();
+                        //commitforthewin(seged = Integer.parseInt(command));
+                        attridb5.attridb(player, 50);
+		}
+                else if (command.equals("attridbfull"))
+		{
+                        RequestExEnchantItemAttribute attridb5 = new RequestExEnchantItemAttribute();
+                        //commitforthewin(seged = Integer.parseInt(command));
+                        attridb5.attridb(player, 250);
+		}
 	}
 	
 	public boolean logout(Integer player)
@@ -419,4 +455,5 @@ public class In
 		
 		return false;
 	}
+   
 }
