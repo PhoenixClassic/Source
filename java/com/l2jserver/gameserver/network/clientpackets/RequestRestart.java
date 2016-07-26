@@ -28,6 +28,8 @@ import javolution.util.FastList;
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.SevenSignsFestival;
 import com.l2jserver.gameserver.instancemanager.AntiFeedManager;
+import static com.l2jserver.gameserver.instancemanager.event_engine.Interface.isParticipating;
+import static com.l2jserver.gameserver.instancemanager.event_engine.Interface.isRegistered;
 import com.l2jserver.gameserver.model.L2Party;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.zone.ZoneId;
@@ -35,6 +37,7 @@ import com.l2jserver.gameserver.model.zone.type.L2MultiFunctionZone;
 import com.l2jserver.gameserver.network.L2GameClient;
 import com.l2jserver.gameserver.network.L2GameClient.GameClientState;
 import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.CharSelectionInfo;
 import com.l2jserver.gameserver.network.serverpackets.RestartResponse;
 import com.l2jserver.gameserver.scripting.scriptengine.listeners.player.PlayerDespawnListener;
@@ -123,7 +126,12 @@ public final class RequestRestart extends L2GameClientPacket
 				player.getParty().broadcastString(player.getName() + " has been removed from the upcoming festival.");
 			}
 		}
-		
+		if (isRegistered(player.getObjectId()) || isParticipating(player.getObjectId()))
+                        {
+				player.sendMessage("You cannot log out while you are a participant in a Event.");
+				sendPacket(RestartResponse.valueOf(false));
+				return;
+			}
 		if (player.isBlockedFromExit())
 		{
 			sendPacket(RestartResponse.valueOf(false));

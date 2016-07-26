@@ -16,13 +16,17 @@ package com.l2jserver.gameserver.instancemanager.event_engine.events;
 
 import com.l2jserver.gameserver.instancemanager.event_engine.AbstractEvent;
 import com.l2jserver.gameserver.instancemanager.event_engine.Configuration;
+import com.l2jserver.gameserver.instancemanager.event_engine.container.NpcContainer;
 import com.l2jserver.gameserver.instancemanager.event_engine.io.Out;
+import com.l2jserver.gameserver.instancemanager.event_engine.model.EventNpc;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.EventPlayer;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.SingleEventStatus;
 
 public class DM extends AbstractEvent
 {
 	public static boolean enabled = true;
+        
+        private EventNpc spawn;
 	
 	private class Core implements Runnable
 	{
@@ -34,16 +38,24 @@ public class DM extends AbstractEvent
 				switch (eventState)
 				{
 					case START:
-						divideIntoTeams(1);
+                                                divideIntoTeams(1);
 						teleportToTeamPos();
 						preparePlayers();
+                                                invulPlayers();
+                                                spawn = NpcContainer.getInstance().createNpc(-179534, 209564, -15504, 555, instanceId);                                                
+                                                msgToAll("Take your buffs. 30 sec left.");
+                                                htmlToAll("data/html/event/DM.htm");
+                                                Thread.sleep(30000);
 						forceSitAll();
+                                                uninvulPlayers();
+                                                msgToAll("The event starts in 5 seconds.");
 						setStatus(EventState.FIGHT);
 						schedule(10000);
 						break;
 					
 					case FIGHT:
 						forceStandAll();
+                                                spawn.unspawn();
 						setStatus(EventState.END);
 						
 						clock.start();

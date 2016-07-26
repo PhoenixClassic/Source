@@ -2,13 +2,17 @@ package com.l2jserver.gameserver.instancemanager.event_engine.events;
 
 import com.l2jserver.gameserver.instancemanager.event_engine.AbstractEvent;
 import com.l2jserver.gameserver.instancemanager.event_engine.Configuration;
+import com.l2jserver.gameserver.instancemanager.event_engine.container.NpcContainer;
 import com.l2jserver.gameserver.instancemanager.event_engine.io.Out;
+import com.l2jserver.gameserver.instancemanager.event_engine.model.EventNpc;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.EventPlayer;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.TeamEventStatus;
 
 public class TvT extends AbstractEvent
 {
 	public static boolean enabled = true;
+        
+        private EventNpc spawn;
 	
 	private class Core implements Runnable
 	{
@@ -26,13 +30,20 @@ public class TvT extends AbstractEvent
 						preparePlayers();
 						createPartyOfTeam(1);
 						createPartyOfTeam(2);
+                                                spawn = NpcContainer.getInstance().createNpc(85000, -18575, -1133, 555, instanceId);
+                                                spawn = NpcContainer.getInstance().createNpc(80100, -16155, -1339, 555, instanceId);
+                                                msgToAll("Take your buffs. 30 sec left.");
+                                                htmlToAll("data/html/event/TvT.htm");
+                                                Thread.sleep(30000);
 						forceSitAll();
+                                                msgToAll("The event starts in 5 seconds.");
 						setStatus(EventState.FIGHT);
 						schedule(10000);
 						break;
 					
 					case FIGHT:
 						forceStandAll();
+                                                spawn.unspawn();
 						setStatus(EventState.END);
 						
 						clock.start();
@@ -154,4 +165,5 @@ public class TvT extends AbstractEvent
 		setStatus(EventState.START);
 		schedule(1);
 	}
+
 }

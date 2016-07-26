@@ -11,6 +11,8 @@ import com.l2jserver.gameserver.instancemanager.event_engine.model.TeamEventStat
 public class CTF extends AbstractEvent
 {
 	public static boolean enabled = true;
+        
+        private EventNpc spawn;
 	
 	private class Core implements Runnable
 	{
@@ -28,7 +30,13 @@ public class CTF extends AbstractEvent
 						preparePlayers();
 						createPartyOfTeam(1);
 						createPartyOfTeam(2);
+                                                spawn = NpcContainer.getInstance().createNpc(87028, -205926, -3496, 555, instanceId);
+                                                spawn = NpcContainer.getInstance().createNpc(89059, -207908, -3497, 555, instanceId);
+                                                msgToAll("Take your buffs. 30 sec left.");
+                                                htmlToAll("data/html/event/CTF.htm");
+                                                Thread.sleep(30000);
 						forceSitAll();
+                                                msgToAll("The event starts in 5 seconds.");
 						spawnFlagsAndHolders();
 						setStatus(EventState.FIGHT);
 						schedule(10000);
@@ -36,6 +44,7 @@ public class CTF extends AbstractEvent
 					
 					case FIGHT:
 						forceStandAll();
+                                                spawn.unspawn();
 						setStatus(EventState.END);
 						
 						clock.start();

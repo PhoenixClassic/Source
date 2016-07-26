@@ -1,5 +1,6 @@
 package com.l2jserver.gameserver.instancemanager.event_engine;
 
+import com.l2jserver.gameserver.cache.HtmCache;
 import java.net.InetAddress;
 import java.util.Calendar;
 import java.util.LinkedList;
@@ -125,29 +126,35 @@ public abstract class AbstractEvent
 	
 	public class RegisterCountdown extends Clock
 	{
+            
+                public EventPlayer player;
+                        
 		public RegisterCountdown(int time)
 		{
 			super(time);
 		}
-		
 		@Override
 		public void clockBody()
 		{
+                        for (int i = 0; i<players.size(); i++){
+                            if (!players.get(i).isOnline())
+                                players.remove(players.get(i));
+                        }
 			switch (counter)
 			{
 				case 1800:
 				case 1200:
 				case 600:
 				case 300:
+                                        announce("" + (counter / 60) + " minutes left to vote.");
+					break;
 				case 60:
+                                    {
 					announce("" + (counter / 60) + " minutes left to register.");
-					break;
-				case 30:
-                                    
-				case 10:
-				case 5:
-					announce("" + counter + " seconds left to register.");
-					break;
+                                        for (Integer playerId : Out.getEveryPlayer())
+                                            ManagerNpc.getInstance().showMain(playerId);
+                                        break;
+                                    }
 			}
 		}
 		
@@ -698,6 +705,23 @@ public abstract class AbstractEvent
 			player.sendMessage(text);
 		}
 	}
+        public void htmlToAll(String path)
+	{
+		for (EventPlayer player : players)
+		{
+		String oriPath = path;
+		String content = HtmCache.getInstance().getHtm(path);
+		if ((content == null) && !oriPath.equals(path))
+		{
+			content = HtmCache.getInstance().getHtm(oriPath);
+		}
+		if (content == null)
+		{
+		}
+		
+		Out.html(player.getPlayersId(), content);
+		}
+	}
 	
 	public int numberOfTeams()
 	{
@@ -843,6 +867,20 @@ public abstract class AbstractEvent
 		for (EventPlayer player : players)
 		{
 			prepare(player);
+		}
+	}
+        public void invulPlayers()
+	{
+		for (EventPlayer player : players)
+		{
+			player.setIsInvul(true);
+		}
+	}
+        public void uninvulPlayers()
+	{
+		for (EventPlayer player : players)
+		{
+			player.setIsInvul(false);
 		}
 	}
 	

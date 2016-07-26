@@ -28,6 +28,8 @@ public class DoubleDomination extends AbstractEvent
 {
 	
 	public static boolean enabled = true;
+        
+        private EventNpc spawn;
 	
 	private class Core implements Runnable
 	{
@@ -44,13 +46,20 @@ public class DoubleDomination extends AbstractEvent
 						preparePlayers();
 						createPartyOfTeam(1);
 						createPartyOfTeam(2);
+                                                spawn = NpcContainer.getInstance().createNpc(146609, 6431, 1683, 555, instanceId);
+                                                spawn = NpcContainer.getInstance().createNpc(148313, 6423, 1683, 555, instanceId);
+                                                msgToAll("Take your buffs. 30 sec left.");
+                                                htmlToAll("data/html/event/DD.htm");
+                                                Thread.sleep(30000);
 						forceSitAll();
+                                                msgToAll("The event starts in 5 seconds.");
 						setStatus(EventState.FIGHT);
 						schedule(10000);
 						break;
 					
 					case FIGHT:
 						forceStandAll();
+                                                spawn.unspawn();
 						setStatus(EventState.END);
 						
 						clock.start();

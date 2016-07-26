@@ -47,6 +47,7 @@ import com.l2jserver.gameserver.datatables.DoorTable;
 import com.l2jserver.gameserver.datatables.ItemTable;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.ISkillHandler;
+import static com.l2jserver.gameserver.handler.ISkillHandler._log;
 import com.l2jserver.gameserver.handler.SkillHandler;
 import com.l2jserver.gameserver.instancemanager.DimensionalRiftManager;
 import com.l2jserver.gameserver.instancemanager.GlobalVariablesManager;
@@ -791,6 +792,7 @@ public abstract class L2Character extends L2Object implements ISkillsHolder
 	 */
 	protected void doAttack(L2Character target)
 	{
+
 		if ((this instanceof L2PcInstance) && Interface.doAttack(getObjectId(), target.getObjectId()))
 		{
 			sendPacket(ActionFailed.STATIC_PACKET);
@@ -1153,7 +1155,16 @@ public abstract class L2Character extends L2Object implements ISkillsHolder
 				}
 			}
 		}
-		
+		if (target.isPlayer() && target.isStunned())
+			{
+                                int rr = Rnd.get(20);
+                                if (rr == 1)
+                                {
+                                    target.stopStunning(true);
+                                    //_log.log(Level.WARNING, "Stunnos");
+                                }
+
+			}
 		// If the Server->Client packet Attack contains at least 1 hit, send the Server->Client packet Attack
 		// to the L2Character AND to all L2PcInstance in the _KnownPlayers of the L2Character
 		if (attack.hasHits())

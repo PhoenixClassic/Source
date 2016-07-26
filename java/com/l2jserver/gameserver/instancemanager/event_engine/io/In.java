@@ -341,7 +341,9 @@ public class In
 			Buffer.getInstance().showHtml(player);
 		}
 		else if (command.startsWith("register "))
-		{
+		{ 
+                        //EventPlayer pi = PlayerContainer.getInstance().getPlayer(player);
+                        //if (pi.getEvent().getAbstractPhase() == AbstractPhase.REGISTER)
 			EventContainer.getInstance().getEvent(Integer.parseInt(command.substring(9))).registerPlayer(player);
 		}
 		else if (command.startsWith("showreg"))

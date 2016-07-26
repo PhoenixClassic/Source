@@ -4,13 +4,17 @@ import javolution.util.FastMap;
 
 import com.l2jserver.gameserver.instancemanager.event_engine.AbstractEvent;
 import com.l2jserver.gameserver.instancemanager.event_engine.Configuration;
+import com.l2jserver.gameserver.instancemanager.event_engine.container.NpcContainer;
 import com.l2jserver.gameserver.instancemanager.event_engine.io.Out;
+import com.l2jserver.gameserver.instancemanager.event_engine.model.EventNpc;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.EventPlayer;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.TeamEventStatus;
 
 public class VIPTvT extends AbstractEvent
 {
 	public static boolean enabled = true;
+        
+        private EventNpc spawn;
 	
 	private class Core implements Runnable
 	{
@@ -30,13 +34,20 @@ public class VIPTvT extends AbstractEvent
 						createPartyOfTeam(2);
 						selectNewVipOfTeam(1);
 						selectNewVipOfTeam(2);
+                                                spawn = NpcContainer.getInstance().createNpc(-77783, -174915, -11012, 555, instanceId);
+                                                spawn = NpcContainer.getInstance().createNpc(-82433, -174916, -10486, 555, instanceId);
+                                                msgToAll("Take your buffs. 30 sec left.");
+                                                htmlToAll("data/html/event/VTvT.htm");
+                                                Thread.sleep(30000);
 						forceSitAll();
+                                                msgToAll("The event starts in 5 seconds.");
 						setStatus(EventState.FIGHT);
 						schedule(10000);
 						break;
 					
 					case FIGHT:
 						forceStandAll();
+                                                spawn.unspawn();
 						setStatus(EventState.END);
 						
 						clock.start();

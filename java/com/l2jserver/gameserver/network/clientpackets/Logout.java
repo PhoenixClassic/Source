@@ -24,6 +24,8 @@ import java.util.logging.Logger;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.SevenSignsFestival;
+import static com.l2jserver.gameserver.instancemanager.event_engine.Interface.isParticipating;
+import static com.l2jserver.gameserver.instancemanager.event_engine.Interface.isRegistered;
 import com.l2jserver.gameserver.model.L2Party;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.L2Event;
@@ -122,6 +124,12 @@ public final class Logout extends L2GameClientPacket
 		}
 		
 		// Remove player from Boss Zone
+                if (isRegistered(player.getObjectId()) || isParticipating(player.getObjectId()))
+                        {
+				player.sendMessage("You cannot log out while you are a participant in a Event.");
+				player.sendPacket(ActionFailed.STATIC_PACKET);
+				return;
+			}
 		player.removeFromBossZone();
 		
 		LogRecord record = new LogRecord(Level.INFO, "Disconnected");

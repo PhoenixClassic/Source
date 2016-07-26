@@ -13,6 +13,8 @@ import com.l2jserver.gameserver.instancemanager.event_engine.model.TeamEventStat
 public class Battlefield extends AbstractEvent
 {
 	public static boolean enabled = true;
+        
+        private EventNpc spawn;
 	
 	private class Core implements Runnable
 	{
@@ -30,7 +32,13 @@ public class Battlefield extends AbstractEvent
 						preparePlayers();
 						createPartyOfTeam(1);
 						createPartyOfTeam(2);
+                                                spawn = NpcContainer.getInstance().createNpc(-81938, -53888, -10732, 555, instanceId);
+                                                spawn = NpcContainer.getInstance().createNpc(-86325, -50610, -10726, 555, instanceId);
+                                                msgToAll("Take your buffs. 30 sec left.");
+                                                htmlToAll("data/html/event/Battlefield.htm");
+                                                Thread.sleep(30000);
 						forceSitAll();
+                                                msgToAll("The event starts in 5 seconds.");
 						giveSkill();
 						spawnBases();
 						setStatus(EventState.FIGHT);
@@ -39,6 +47,7 @@ public class Battlefield extends AbstractEvent
 					
 					case FIGHT:
 						forceStandAll();
+                                                spawn.unspawn();
 						setStatus(EventState.END);
 						
 						clock.start();
@@ -233,7 +242,7 @@ public class Battlefield extends AbstractEvent
 	}
 	
 	@Override
-	public void useCapture(EventPlayer player, Integer base)
+	public void  useCapture(EventPlayer player, Integer base)
 	{
 		EventNpc baseinfo = NpcContainer.getInstance().getNpc(base);
 		if (baseinfo == null)

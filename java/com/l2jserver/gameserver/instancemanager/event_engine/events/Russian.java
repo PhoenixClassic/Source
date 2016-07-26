@@ -291,7 +291,7 @@ public class Russian extends AbstractEvent
 			choses.put(i, new FastList<EventPlayer>());
 			russians.get(i).setTitle("--" + i + "--");
 		}
-	}
+	} 
 	
 	@Override
 	public void start()
