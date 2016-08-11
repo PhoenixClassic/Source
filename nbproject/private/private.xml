@@ -3,14 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/communitybbs/Managers/MasteryBBSManager.java</file>
-            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/instancemanager/event_engine/model/Clock.java</file>
-            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/instancemanager/event_engine/function/Vote.java</file>
-            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/instancemanager/event_engine/AbstractEvent.java</file>
-            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/instancemanager/event_engine/io/In.java</file>
-            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/model/actor/L2Character.java</file>
-            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/instancemanager/event_engine/events/Battlefield.java</file>
-            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/instancemanager/event_engine/container/EventContainer.java</file>
+            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/model/actor/instance/L2PcInstance.java</file>
+            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/model/skills/L2Skill.java</file>
+            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/model/stats/Formulas.java</file>
+            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/model/effects/L2Effect.java</file>
+            <file>file:/C:/L2Cuccok/Ps%20core/java/com/l2jserver/gameserver/communitybbs/Managers/StateBBSManager.java</file>
         </group>
     </open-files>
 </project-private>

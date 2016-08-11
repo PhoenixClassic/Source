@@ -12,7 +12,8 @@ public class TvT extends AbstractEvent
 {
 	public static boolean enabled = true;
         
-        private EventNpc spawn;
+        private EventNpc spawnt1;
+        private EventNpc spawnt2;
 	
 	private class Core implements Runnable
 	{
@@ -25,13 +26,13 @@ public class TvT extends AbstractEvent
 				switch (eventState)
 				{
 					case START:
-						divideIntoTeams(2);
+						divideIntoTeamsbyhealer(2);
 						teleportToTeamPos();
 						preparePlayers();
 						createPartyOfTeam(1);
 						createPartyOfTeam(2);
-                                                spawn = NpcContainer.getInstance().createNpc(85000, -18575, -1133, 555, instanceId);
-                                                spawn = NpcContainer.getInstance().createNpc(80100, -16155, -1339, 555, instanceId);
+                                                spawnt1 = NpcContainer.getInstance().createNpc(85000, -18575, -1133, 555, instanceId);
+                                                spawnt2 = NpcContainer.getInstance().createNpc(80100, -16155, -1339, 555, instanceId);
                                                 msgToAll("Take your buffs. 30 sec left.");
                                                 htmlToAll("data/html/event/TvT.htm");
                                                 Thread.sleep(30000);
@@ -43,9 +44,7 @@ public class TvT extends AbstractEvent
 					
 					case FIGHT:
 						forceStandAll();
-                                                spawn.unspawn();
 						setStatus(EventState.END);
-						
 						clock.start();
 						
 						break;
@@ -58,6 +57,8 @@ public class TvT extends AbstractEvent
 						}
 						
 						giveReward(getPlayersOfTeam(winnerTeam));
+                                                spawnt1.unspawn();
+                                                spawnt2.unspawn();
 						setStatus(EventState.INACTIVE);
 						announce("Congratulation! The " + teams.get(winnerTeam).getName() + " team won the event with " + teams.get(winnerTeam).getScore() + " kills!");
 						eventEnded();

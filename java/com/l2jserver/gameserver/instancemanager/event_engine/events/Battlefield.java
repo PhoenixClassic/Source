@@ -14,7 +14,8 @@ public class Battlefield extends AbstractEvent
 {
 	public static boolean enabled = true;
         
-        private EventNpc spawn;
+        private EventNpc spawnt1;
+        private EventNpc spawnt2;
 	
 	private class Core implements Runnable
 	{
@@ -27,13 +28,13 @@ public class Battlefield extends AbstractEvent
 				switch (eventState)
 				{
 					case START:
-						divideIntoTeams(2);
+						divideIntoTeamsbyhealer(2);
 						teleportToTeamPos();
 						preparePlayers();
-						createPartyOfTeam(1);
-						createPartyOfTeam(2);
-                                                spawn = NpcContainer.getInstance().createNpc(-81938, -53888, -10732, 555, instanceId);
-                                                spawn = NpcContainer.getInstance().createNpc(-86325, -50610, -10726, 555, instanceId);
+						//createPartyOfTeam(1);
+						//createPartyOfTeam(2);
+                                                spawnt1 = NpcContainer.getInstance().createNpc(-81938, -53888, -10732, 555, instanceId);
+                                                spawnt2 = NpcContainer.getInstance().createNpc(-86325, -50610, -10726, 555, instanceId);
                                                 msgToAll("Take your buffs. 30 sec left.");
                                                 htmlToAll("data/html/event/Battlefield.htm");
                                                 Thread.sleep(30000);
@@ -47,11 +48,8 @@ public class Battlefield extends AbstractEvent
 					
 					case FIGHT:
 						forceStandAll();
-                                                spawn.unspawn();
 						setStatus(EventState.END);
-						
 						clock.start();
-						
 						break;
 					
 					case END:
@@ -64,6 +62,8 @@ public class Battlefield extends AbstractEvent
 						giveReward(getPlayersOfTeam(winnerTeam));
 						unspawnBases();
 						removeSkill();
+                                                spawnt1.unspawn();
+                                                spawnt2.unspawn();
 						setStatus(EventState.INACTIVE);
 						announce("Congratulation! The " + teams.get(winnerTeam).getName() + " team won the event with " + teams.get(winnerTeam).getScore() + " points!");
 						eventEnded();

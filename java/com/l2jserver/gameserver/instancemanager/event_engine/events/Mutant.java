@@ -187,8 +187,63 @@ public class Mutant extends AbstractEvent
 	public void transformMutant(EventPlayer player)
 	{
 		player.setNameColor(255, 0, 0);
-		player.transform(303);
+            switch (player.getOwner().getClassId().getId()) {  
+                case 89:
+                case 88:
+                case 113:
+                case 114:
+                case 117:
+                case 118:
+                case 131:
+                case 132:
+                case 133:
+                    player.transform(253); //warrior
+                    break;
+                case 93:
+                case 92:
+                case 101:
+                case 102:
+                case 108:
+                case 109:
+                case 134:
+                    player.transform(254); //Rouge
+                    break;
+                case 110:
+                case 94:
+                case 95:
+                case 103:
+                    player.transform(256); //Wizard
+                    break;
+                case 98:
+                case 100:
+                case 107:
+                case 115:
+                case 116:
+                case 136:    
+                    player.transform(257); //Enchanter
+                    break;    
+                case 105:
+                case 112:
+                case 97:
+                    player.transform(255); //Healer
+                    break;
+                case 90:
+                case 91:
+                case 99:
+                case 106:    
+                    player.transform(252); //Knight
+                    break;
+                case 96:
+                case 104:
+                case 111:
+                    player.transform(258); //Summoner
+                    break;
+                default:
+                    player.transform(253);
+                    break;
+            }
 		player.addSkill(Configuration.getInstance().getInt(getId(), "mutantBuffId"), 1);
+                player.removeSkill(3499, 1);
 		player.setStatus(1);
 		untransformMutant();
 		player.broadcastUserInfo();

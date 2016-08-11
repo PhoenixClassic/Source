@@ -22,16 +22,23 @@ import com.l2jserver.Config;
 import com.l2jserver.gameserver.cache.HtmCache;
 import com.l2jserver.gameserver.datatables.ClassListData;
 import com.l2jserver.gameserver.datatables.ItemTable;
+import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.templates.L2NpcTemplate;
 import com.l2jserver.gameserver.model.base.ClassId;
+import com.l2jserver.gameserver.model.items.instance.L2ItemInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ExBrExtraUserInfo;
+import com.l2jserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.network.serverpackets.SocialAction;
+import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.network.serverpackets.TutorialCloseHtml;
 import com.l2jserver.gameserver.network.serverpackets.TutorialShowHtml;
 import com.l2jserver.gameserver.network.serverpackets.TutorialShowQuestionMark;
 import com.l2jserver.gameserver.network.serverpackets.UserInfo;
 import com.l2jserver.util.StringUtil;
+import java.util.Iterator;
+import java.util.Vector;
 
 /**
  * This class ...
@@ -382,11 +389,814 @@ public final class L2ClassMasterInstance extends L2MerchantInstance
 		}
 		
 		// reward player with items
-		for (int _itemId : Config.CLASS_MASTER_SETTINGS.getRewardItems(newJobLevel).keySet())
-		{
-			int _count = Config.CLASS_MASTER_SETTINGS.getRewardItems(newJobLevel).get(_itemId);
-			player.addItem("ClassMaster", _itemId, _count, player, true);
-		}
+        for (int _itemId22 : Config.CLASS_MASTER_SETTINGS.getRewardItems(newJobLevel).keySet()) {
+                    int _count = Config.CLASS_MASTER_SETTINGS.getRewardItems(newJobLevel).get(_itemId22);
+            player.addItem("ClassMaster", _itemId22, (long)_count, (L2Object)player, true);
+        }
+        Vector<Integer> itemids = new Vector<Integer>();
+        switch (val) {
+            case 1: {
+                itemids.add(352);
+                itemids.add(2378);
+                itemids.add(2411);
+                itemids.add(2425);
+                itemids.add(2449);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(2546);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 4: {
+                itemids.add(352);
+                itemids.add(2378);
+                itemids.add(2411);
+                itemids.add(2425);
+                itemids.add(2449);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(2499);
+                itemids.add(2493);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 19: {
+                itemids.add(352);
+                itemids.add(2378);
+                itemids.add(2411);
+                itemids.add(2425);
+                itemids.add(2449);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(2499);
+                itemids.add(2493);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 32: {
+                itemids.add(352);
+                itemids.add(2378);
+                itemids.add(2411);
+                itemids.add(2425);
+                itemids.add(2449);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(2499);
+                itemids.add(2493);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 45: {
+                itemids.add(352);
+                itemids.add(2378);
+                itemids.add(2411);
+                itemids.add(2425);
+                itemids.add(2449);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(70);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 54: {
+                itemids.add(352);
+                itemids.add(2378);
+                itemids.add(2411);
+                itemids.add(2425);
+                itemids.add(2449);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(159);
+                itemids.add(2493);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 56: {
+                itemids.add(352);
+                itemids.add(2378);
+                itemids.add(2411);
+                itemids.add(2425);
+                itemids.add(2449);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(159);
+                itemids.add(2493);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 7: {
+                itemids.add(395);
+                itemids.add(417);
+                itemids.add(2424);
+                itemids.add(2448);
+                itemids.add(2411);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(225);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 22: {
+                itemids.add(395);
+                itemids.add(417);
+                itemids.add(2424);
+                itemids.add(2448);
+                itemids.add(2411);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(225);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 35: {
+                itemids.add(395);
+                itemids.add(417);
+                itemids.add(2424);
+                itemids.add(2448);
+                itemids.add(2411);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(225);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 125: {
+                itemids.add(395);
+                itemids.add(417);
+                itemids.add(2424);
+                itemids.add(2448);
+                itemids.add(2411);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(9225);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 126: {
+                itemids.add(395);
+                itemids.add(417);
+                itemids.add(2424);
+                itemids.add(2448);
+                itemids.add(2411);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(9225);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 11: {
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(189);
+                player.addItem("ClassMaster", 3948, 3000, (L2Object)player, true);
+                break;
+            }
+            case 15: {
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(189);
+                player.addItem("ClassMaster", 3948, 3000, (L2Object)player, true);
+                break;
+            }
+            case 26: {
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(189);
+                player.addItem("ClassMaster", 3948, 3000, (L2Object)player, true);
+                break;
+            }
+            case 29: {
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(189);
+                player.addItem("ClassMaster", 3948, 3000, (L2Object)player, true);
+                break;
+            }
+            case 39: {
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(189);
+                player.addItem("ClassMaster", 3948, 3000, (L2Object)player, true);
+                break;
+            }
+            case 42: {
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(189);
+                player.addItem("ClassMaster", 3948, 3000, (L2Object)player, true);
+                break;
+            }
+            case 50: {
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(189);
+                player.addItem("ClassMaster", 3948, 3000, (L2Object)player, true);
+                break;
+            }
+            case 47: {
+                itemids.add(395);
+                itemids.add(417);
+                itemids.add(2424);
+                itemids.add(2448);
+                itemids.add(2411);
+                itemids.add(850);
+                itemids.add(850);
+                itemids.add(881);
+                itemids.add(881);
+                itemids.add(913);
+                itemids.add(262);
+                player.addItem("ClassMaster", 1463, 3000, (L2Object)player, true);
+                break;
+            }
+            case 5: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(2497);
+                itemids.add(135);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 6: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(2497);
+                itemids.add(135);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 20: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(2497);
+                itemids.add(135);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 21: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(2497);
+                itemids.add(135);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 33: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(2497);
+                itemids.add(135);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 2: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(2599);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 34: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(2599);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 3: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(298);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 46: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(5286);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 55: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(2497);
+                itemids.add(2503);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 57: {
+                itemids.add(356);
+                itemids.add(2414);
+                itemids.add(2438);
+                itemids.add(2462);
+                itemids.add(2497);
+                itemids.add(2503);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 8: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(228);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 23: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(228);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 36: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(228);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 9: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(286);
+                player.addItem("ClassMaster", 1342, 2000, (L2Object)player, true);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 24: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(286);
+                player.addItem("ClassMaster", 1342, 2000, (L2Object)player, true);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 37: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(286);
+                player.addItem("ClassMaster", 1342, 2000, (L2Object)player, true);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 48: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(266);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 127: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(9296);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 128: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(9292);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 129: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(9292);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 130: {
+                itemids.add(398);
+                itemids.add(418);
+                itemids.add(2431);
+                itemids.add(2455);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(9288);
+                player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
+                break;
+            }
+            case 12: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 13: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 14: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 16: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 17: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 27: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 28: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 30: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 40: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 41: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 43: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 51: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+                break;
+            }
+            case 52: {
+                itemids.add(439);
+                itemids.add(471);
+                itemids.add(2430);
+                itemids.add(2454);
+                itemids.add(2414);
+                itemids.add(886);
+                itemids.add(886);
+                itemids.add(855);
+                itemids.add(855);
+                itemids.add(119);
+                itemids.add(206);
+                player.addItem("ClassMaster", 3949, 6000, (L2Object)player, true);
+            }
+        }
+        Iterator i$ = itemids.iterator();
+        while (i$.hasNext()) {
+            int id = (Integer)i$.next();
+            L2ItemInstance itm = player.addItem("ClassMaster", id, 1, (L2Object)player, true);
+            player.getInventory().equipItem(itm);
+        }
+        player.sendPacket((L2GameServerPacket)new SpecialCamera(player.getObjectId(), 3, 0, 0, 300, 5500, 360, 0, 1, 0));
+        player.broadcastPacket((L2GameServerPacket)new SocialAction(player.getObjectId(), 3));
 		
 		player.setClassId(val);
 		

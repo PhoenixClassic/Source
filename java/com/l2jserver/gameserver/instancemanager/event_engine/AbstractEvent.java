@@ -20,6 +20,11 @@ import com.l2jserver.gameserver.instancemanager.event_engine.model.Clock;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.EventPlayer;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.EventStatus;
 import com.l2jserver.gameserver.instancemanager.event_engine.model.PLoc;
+import com.l2jserver.gameserver.model.L2Party;
+import static com.l2jserver.gameserver.model.actor.L2Character._log;
+import static java.util.logging.Level.WARNING;
+//import static com.l2jserver.gameserver.model.actor.L2Character._log;
+//import static java.util.logging.Level.WARNING;
 
 public abstract class AbstractEvent
 {
@@ -188,7 +193,7 @@ public abstract class AbstractEvent
 				{
 					Buffer.getInstance().buffPlayer(player);
 				}
-				
+				player.getEffects(1323, 1);
 				player.healToMax();
 				teleportToTeamPos(player);
 			}
@@ -352,6 +357,8 @@ public abstract class AbstractEvent
 	public void createPartyOfTeam(int teamId)
 	{
 		int count = 0;
+                
+                L2Party party = null;
 		
 		FastList<EventPlayer> list = new FastList<>();
 		
@@ -363,28 +370,22 @@ public abstract class AbstractEvent
 			}
 		}
 		
-		FastList<EventPlayer> sublist = new FastList<>();
+		//FastList<EventPlayer> sublist = new FastList<>();
 		for (EventPlayer player : list)
-		{
-			if (((count % 9) == 0) && ((list.size() - count) != 1))
-			{
-				if (sublist.size() == 0)
-				{
-					sublist.add(player);
-				}
-				else
-				{
-					Out.createParty2(sublist);
-					sublist.reset();
-					sublist.add(player);
-				}
-			}
-			if ((count % 9) < 9)
-			{
-				sublist.add(player);
-			}
-			count++;
-		}
+       {
+           if (count % 9 == 0 && list.size() - count != 1)
+            {
+               party = new L2Party(player.getOwner(), 1); 
+               //_log.log(WARNING, "Ptc" + player.getName());
+            }
+           if (count % 9 < 9)
+           {
+               player.joinParty(party);
+               party.changePartyLeader(player.getName());
+               //_log.log(WARNING, "Ptj" + player.getName());
+           }
+           count++;
+       }
 	}
 	
 	public void divideIntoTeams(int number)
@@ -403,6 +404,58 @@ public abstract class AbstractEvent
 				i = 0;
 			}
 		}
+	}
+                
+        public void divideIntoTeamsbyhealer(int number)
+	{
+		FastList<EventPlayer> temp = new FastList<>(players);
+		FastList<EventPlayer> tempheal = new FastList<>();
+		int i = 0;
+                int a = 0;
+                int b = 0;
+                int h = 0;
+		while (!temp.isEmpty())
+		{
+			EventPlayer player = temp.get(rnd.nextInt(temp.size()));
+                        if (player.getOwner().getClassId().getId() == 105 || player.getOwner().getClassId().getId() == 112 || player.getOwner().getClassId().getId() == 97 || player.getOwner().getClassId().getId() == 115) 
+                        {  
+                            tempheal.add(player);
+                            temp.remove(player);
+                        }
+                        else
+                        {
+                            i++;
+                            if (i==1)
+                                a++;
+                            else
+                                b++;
+                            //_log.log(WARNING, "Team " + i + " " + player.getName());
+                            player.setMainTeam(i);
+                            temp.remove(player);
+                            if (i == number)
+                            {
+				i = 0;
+                            }
+                        }
+		}
+                
+                if (a > b){
+                    //_log.log(WARNING, "A nagyobb" );
+                    h = 1;}
+                if (!tempheal.isEmpty())
+                {
+                while (!tempheal.isEmpty())
+                {
+                        h++;
+			EventPlayer healer = tempheal.get(rnd.nextInt(tempheal.size()));
+                        //_log.log(WARNING, "Heal Team " + h + " " + healer.getName());
+			healer.setMainTeam(h);
+			tempheal.remove(healer);
+			if (h == number)
+			{
+				h = 0;
+			}
+                }}
 	}
 	
 	public void dropBomb(EventPlayer player)
@@ -795,16 +848,19 @@ public abstract class AbstractEvent
 	{
 		if (Configuration.getInstance().getRestriction(0, "item").contains(item) || Configuration.getInstance().getRestriction(getId(), "item").contains(item))
 		{
+                     //   _log.log(WARNING, "Use item 1");
 			return false;
 		}
 		
 		if (Out.isPotion(item) && !Configuration.getInstance().getBoolean(getId(), "allowPotions"))
 		{
+                    //    _log.log(WARNING, "Use item 2");
 			return false;
 		}
 		
 		if (Out.isScroll(item))
 		{
+                       // _log.log(WARNING, "Use item 3");
 			return false;
 		}
 		
@@ -815,11 +871,13 @@ public abstract class AbstractEvent
 	{
 		if (Configuration.getInstance().getRestriction(0, "skill").contains(skill) || Configuration.getInstance().getRestriction(getId(), "skill").contains(skill))
 		{
+                        //_log.log(WARNING, "Use Magic 1");
 			return false;
 		}
 		
 		if (Out.isRestrictedSkill(skill))
 		{
+                        //_log.log(WARNING, "Use Magic 2");
 			return false;
 		}
 		
@@ -887,6 +945,12 @@ public abstract class AbstractEvent
 	public boolean registerPlayer(Integer player)
 	{
 		EventPlayer pi = PlayerContainer.getInstance().getPlayer(player);
+                if (getAbstractPhase() != AbstractPhase.REGISTER)
+		{
+			pi.sendMessage("You can't register now!");
+			PlayerContainer.getInstance().deleteInfo(pi.getPlayersId());
+			return false;
+		}
 		if (pi != null)
 		{
 			pi.sendMessage("You already registered to the event!");
@@ -895,7 +959,7 @@ public abstract class AbstractEvent
 		}
 		
 		pi = PlayerContainer.getInstance().createInfo(player);
-		
+                                
 		if (Configuration.getInstance().getBoolean(0, "ipCheckOnRegister"))
 		{
 			for (EventPlayer p : PlayerContainer.getInstance().getPlayers())
@@ -906,13 +970,6 @@ public abstract class AbstractEvent
 					return false;
 				}
 			}
-		}
-		
-		if (getAbstractPhase() != AbstractPhase.REGISTER)
-		{
-			pi.sendMessage("You can't register now!");
-			PlayerContainer.getInstance().deleteInfo(pi.getPlayersId());
-			return false;
 		}
 		
 		if (Configuration.getInstance().getBoolean(0, "eventBufferEnabled"))

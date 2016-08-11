@@ -14,8 +14,9 @@ public class VIPTvT extends AbstractEvent
 {
 	public static boolean enabled = true;
         
-        private EventNpc spawn;
-	
+        private EventNpc spawnt1;
+        private EventNpc spawnt2;
+        	
 	private class Core implements Runnable
 	{
 		
@@ -27,15 +28,15 @@ public class VIPTvT extends AbstractEvent
 				switch (eventState)
 				{
 					case START:
-						divideIntoTeams(2);
+						divideIntoTeamsbyhealer(2);
 						teleportToTeamPos();
 						preparePlayers();
 						createPartyOfTeam(1);
 						createPartyOfTeam(2);
 						selectNewVipOfTeam(1);
 						selectNewVipOfTeam(2);
-                                                spawn = NpcContainer.getInstance().createNpc(-77783, -174915, -11012, 555, instanceId);
-                                                spawn = NpcContainer.getInstance().createNpc(-82433, -174916, -10486, 555, instanceId);
+                                                spawnt1 = NpcContainer.getInstance().createNpc(-77783, -174915, -11012, 555, instanceId);
+                                                spawnt2 = NpcContainer.getInstance().createNpc(-82433, -174916, -10486, 555, instanceId);
                                                 msgToAll("Take your buffs. 30 sec left.");
                                                 htmlToAll("data/html/event/VTvT.htm");
                                                 Thread.sleep(30000);
@@ -47,11 +48,8 @@ public class VIPTvT extends AbstractEvent
 					
 					case FIGHT:
 						forceStandAll();
-                                                spawn.unspawn();
 						setStatus(EventState.END);
-						
 						clock.start();
-						
 						break;
 					
 					case END:
@@ -62,6 +60,8 @@ public class VIPTvT extends AbstractEvent
 						}
 						
 						giveReward(getPlayersOfTeam(winnerTeam));
+                                                spawnt1.unspawn();
+                                                spawnt2.unspawn();
 						setStatus(EventState.INACTIVE);
 						announce("Congratulation! The " + teams.get(winnerTeam).getName() + " team won the event with " + teams.get(winnerTeam).getScore() + " kills!");
 						eventEnded();
@@ -143,13 +143,13 @@ public class VIPTvT extends AbstractEvent
 	public void onDie(EventPlayer victim, EventPlayer killer)
 	{
 		super.onDie(victim, killer);
-		if (vips.get(1).equals(victim))
+		if (vips.get(1).equals(victim) && getPlayersTeam(killer) != getPlayersTeam(victim))
 		{
 			teams.get(2).increaseScore();
 			killer.increaseScore();
 			selectNewVipOfTeam(1);
 		}
-		if (vips.get(2).equals(victim))
+		if (vips.get(2).equals(victim) && getPlayersTeam(killer) != getPlayersTeam(victim))
 		{
 			teams.get(1).increaseScore();
 			killer.increaseScore();

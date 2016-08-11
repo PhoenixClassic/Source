@@ -12,7 +12,8 @@ public class CTF extends AbstractEvent
 {
 	public static boolean enabled = true;
         
-        private EventNpc spawn;
+        private EventNpc spawnt1;
+        private EventNpc spawnt2;
 	
 	private class Core implements Runnable
 	{
@@ -25,13 +26,13 @@ public class CTF extends AbstractEvent
 				switch (eventState)
 				{
 					case START:
-						divideIntoTeams(2);
+						divideIntoTeamsbyhealer(2);
 						teleportToTeamPos();
 						preparePlayers();
 						createPartyOfTeam(1);
 						createPartyOfTeam(2);
-                                                spawn = NpcContainer.getInstance().createNpc(87028, -205926, -3496, 555, instanceId);
-                                                spawn = NpcContainer.getInstance().createNpc(89059, -207908, -3497, 555, instanceId);
+                                                spawnt1 = NpcContainer.getInstance().createNpc(87028, -205926, -3496, 555, instanceId);
+                                                spawnt2 = NpcContainer.getInstance().createNpc(89059, -207908, -3497, 555, instanceId);
                                                 msgToAll("Take your buffs. 30 sec left.");
                                                 htmlToAll("data/html/event/CTF.htm");
                                                 Thread.sleep(30000);
@@ -44,11 +45,8 @@ public class CTF extends AbstractEvent
 					
 					case FIGHT:
 						forceStandAll();
-                                                spawn.unspawn();
 						setStatus(EventState.END);
-						
 						clock.start();
-						
 						break;
 					
 					case END:
@@ -67,6 +65,8 @@ public class CTF extends AbstractEvent
 							unequipFlag(playerWithBlueFlag);
 						}
 						giveReward(getPlayersOfTeam(winnerTeam));
+                                                spawnt1.unspawn();
+                                                spawnt2.unspawn();
 						setStatus(EventState.INACTIVE);
 						announce("Congratulation! The " + teams.get(winnerTeam).getName() + " team won the event with " + teams.get(winnerTeam).getScore() + " kills!");
 						eventEnded();

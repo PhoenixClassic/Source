@@ -51,7 +51,7 @@ auxiliary.show.customizer.message=<message>
         <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/3">
             <compilation-unit>
                 <package-root>java</package-root>
-                <classpath mode="compile">C:\L2Cuccok\libs\javolution-5.5.1.jar;C:\L2Cuccok\libs\Subnet-1.0.jar;C:\L2Cuccok\libs\c3p0-0.9.2.jar;C:\L2Cuccok\libs\commons-lang3-3.1.jar;C:\L2Cuccok\libs\ecj-4.2.2.jar;C:\L2Cuccok\libs\java-engine-1.7.1.jar;C:\L2Cuccok\libs\jna-3.5.1.jar;C:\L2Cuccok\libs\jython-engine-2.2.1.jar;C:\L2Cuccok\libs\jython.jar;C:\L2Cuccok\libs\mail-1.4.6.jar;C:\L2Cuccok\libs\mailapi-1.4.6.jar;C:\L2Cuccok\libs\mchange-commons-java-0.2.3.3.jar;C:\L2Cuccok\libs\mmocore.jar;C:\L2Cuccok\libs\mysql-connector-java-5.1.23-bin.jar;C:\L2Cuccok\libs\netcon-1.7.jar;C:\L2Cuccok\libs\smtp-1.4.6.jar;C:\L2Cuccok\libs\trove-3.0.3.jar;C:\L2Cuccok\libs\worldwind.jar</classpath>
+                <classpath mode="compile">dist/libs/Subnet-1.0.jar;dist/libs/VotingRewardAPI.jar;dist/libs/VotingRewardInterfaceProvider.jar;dist/libs/VotingRewardL2JInterface.jar;dist/libs/c3p0-0.9.2.jar;dist/libs/ecj-4.2.2.jar;dist/libs/java-engine-1.7.1.jar;dist/libs/javolution-5.5.1.jar;dist/libs/jna-3.5.1.jar;dist/libs/jython-engine-2.2.1.jar;dist/libs/jython.jar;dist/libs/mail-1.4.6.jar;dist/libs/mailapi-1.4.6.jar;dist/libs/mchange-commons-java-0.2.3.3.jar;dist/libs/mmocore.jar;dist/libs/mysql-connector-java-5.1.23-bin.jar;dist/libs/netcon-1.7.jar;dist/libs/smtp-1.4.6.jar;dist/libs/trove-3.0.3.jar;dist/libs/worldwind.jar</classpath>
                 <source-level>1.7</source-level>
             </compilation-unit>
         </java-data>
