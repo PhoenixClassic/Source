@@ -258,6 +258,11 @@ public class ThreadPoolManager
 	{
 		_generalThreadPool.execute(r);
 	}
+        
+        public void executeGeneral(Runnable r)
+	{
+		_generalThreadPool.execute(r);
+	}
 	
 	public void executeAi(Runnable r)
 	{

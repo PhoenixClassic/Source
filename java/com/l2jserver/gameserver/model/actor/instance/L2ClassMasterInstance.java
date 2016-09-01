@@ -991,6 +991,7 @@ public final class L2ClassMasterInstance extends L2MerchantInstance
                 itemids.add(855);
                 itemids.add(119);
                 itemids.add(9288);
+                player.addItem("ClassMaster", 9634, 2000, (L2Object)player, true);
                 player.addItem("ClassMaster", 1464, 6000, (L2Object)player, true);
                 break;
             }

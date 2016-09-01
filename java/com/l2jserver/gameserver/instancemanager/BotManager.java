@@ -278,11 +278,11 @@ public class BotManager
 		}
 		
 		// Cannot report if the reported didnt earn exp since he logged in
-		if (!reported.getStat().hasEarnedExp())
-		{
-			reporter.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CANNOT_REPORT_CHARACTER_WITHOUT_GAINEXP));
-			return false;
-		}
+		//if (!reported.getStat().hasEarnedExp())
+		//{
+		//	reporter.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CANNOT_REPORT_CHARACTER_WITHOUT_GAINEXP));
+		//	return false;
+		//}
 		
 		// Cannot report twice or more a player
 		if (_reportedCount.containsKey(reporter))

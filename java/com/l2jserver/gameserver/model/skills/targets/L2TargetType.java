@@ -57,5 +57,6 @@ public enum L2TargetType
 	SELF,
 	SUMMON,
 	UNDEAD,
-	UNLOCKABLE
+	UNLOCKABLE,
+        COMMAND_CHANNEL
 }

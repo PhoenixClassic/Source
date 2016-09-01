@@ -28,15 +28,20 @@ import java.util.Date;
 import com.l2jserver.Config;
 import com.l2jserver.L2DatabaseFactory;
 import com.l2jserver.gameserver.ThreadPoolManager;
+//import com.l2jserver.gameserver.instancemanager.event_engine.Configuration;
+import com.l2jserver.gameserver.instancemanager.event_engine.io.Out;
 import com.l2jserver.gameserver.model.L2World;
+//import static com.l2jserver.gameserver.model.actor.L2Character._log;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.taskmanager.tasks.TaskMonthlyResetTask;
 import com.l2jserver.gameserver.taskmanager.tasks.TaskTriesResetTask;
+//import static java.util.logging.Level.WARNING;
 
 public class VoteMain
 {
 	private static boolean hasVotedHop;
 	private static boolean hasVotedTop;
+        private static int lastreward = getHopZoneVotes()+getTopZoneVotes()+10;
 	
 	public VoteMain()
 	{
@@ -47,6 +52,7 @@ public class VoteMain
 		System.out.println("Vote Individual Reward System Started Successfully.");
 		TaskTriesResetTask.getInstance();
 		TaskMonthlyResetTask.getInstance();
+                rewardadd();
 	}
 	
 	protected static int getHopZoneVotes()
@@ -68,9 +74,10 @@ public class VoteMain
 			String inputLine;
 			while ((inputLine = in.readLine()) != null)
 			{
-				if (inputLine.contains("rank anonymous tooltip"))
+				if (inputLine.contains("Total Votes"))
 				{
 					votes = Integer.valueOf(inputLine.split(">")[2].replace("</span", ""));
+                                        //<li><span class="rank anonymous tooltip" title="la vita e bella">14</span></li>
 					break;
 				}
 			}
@@ -101,12 +108,12 @@ public class VoteMain
 			String inputLine;
 			while ((inputLine = in.readLine()) != null)
 			{
-				if (inputLine.contains("Votes"))
+				if (inputLine.contains("label-info"))
 				{
 					// String votesLine = in.readLine();
 					String votesLine = inputLine;// Author: chemanue fix
 					// votes = Integer.valueOf(votesLine.split(">")[5].replace("</font", ""));
-					votes = Integer.valueOf(votesLine.split(">")[3].replace("</div", ""));// Author: chemanue fix
+					votes = Integer.valueOf(votesLine.split(">")[3].replace("</span", ""));// Author: chemanue fix
 					// http://l2jpsproject.eu/forum/index.php?topic=1009.0
 					break;
 				}
@@ -621,6 +628,7 @@ public class VoteMain
 		{
 			e.printStackTrace();
 		}
+                rewardadd();
 		return bigTotalVotes;
 	}
 	
@@ -693,4 +701,24 @@ public class VoteMain
 	{
 		VoteMain.hasVotedTop = hasVotedTop;
 	}
+        
+        private static void rewardadd()
+        {
+            int reward = getHopZoneVotes()+getTopZoneVotes();            
+            //_log.log(WARNING, "Reward: " + Integer.toString(reward));
+            if (reward >= lastreward ){
+   //                     lastreward = reward;
+                        lastreward=lastreward+20;
+                  	for (L2PcInstance onlinePlayer : L2World.getInstance().getAllPlayersArray())
+			{
+				if (onlinePlayer.isOnline() && ((onlinePlayer.getClient() != null) && !onlinePlayer.getClient().isDetached()))
+				{
+					onlinePlayer.getInventory().addItem("Admin", 30002, 5, onlinePlayer, "Vote");
+					onlinePlayer.sendMessage("Vote reward has been spawned to your inventory.");           
+				}
+			}
+                        Out.broadcastCreatureSay("[VoteReward] Vote reward arrived. Check your inventory!");
+                       // _log.log(WARNING, "Lastreward: " + Integer.toString(lastreward));
+            }              
+        }
 }

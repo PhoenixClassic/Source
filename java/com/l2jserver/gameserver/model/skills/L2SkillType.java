@@ -144,7 +144,8 @@ public enum L2SkillType
 	BALLISTA,
 	BOMB,
 	CAPTURE,
-	FAKE_DEATH;
+	FAKE_DEATH, 
+        BALANCE_LIFE;
 	
 	private final Class<? extends L2Skill> _class;
 	

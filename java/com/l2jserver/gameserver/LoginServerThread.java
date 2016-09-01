@@ -115,6 +115,9 @@ public class LoginServerThread extends Thread
 	private String _serverName;
 	private final List<String> _subnets;
 	private final List<String> _hosts;
+        private static List<String> duplic = new ArrayList<String>();
+        
+        
 	
 	/**
 	 * Instantiates a new login server thread.
@@ -142,6 +145,7 @@ public class LoginServerThread extends Thread
 		_waitingClients = new FastList<>();
 		_accountsInGameServer.shared();
 		_maxPlayer = Config.MAXIMUM_ONLINE_USERS;
+                duplic.add("PhoenixEngineDuplic");
 	}
 	
 	/**
@@ -316,6 +320,18 @@ public class LoginServerThread extends Thread
 							{
 								if (par.isAuthed())
 								{
+                                                                       /* for(String duplics : duplic)
+                                                                        {
+                                                                            if (duplics == wcToRemove.account.toString()){
+                                                                                _log.warning("Kickelve: " + wcToRemove.account + ".");
+                                                                                duplic.remove(duplics);
+                                                                                _log.warning("Listabol torolve: " + wcToRemove.account + ".");
+                                                                                sendAccessLevel(wcToRemove.account, 0);
+                                                                                
+                                                                            }
+                                                                              
+                                                                        }
+                                                                        */
 									PlayerInGame pig = new PlayerInGame(par.getAccount());
 									sendPacket(pig);
 									wcToRemove.gameClient.setState(GameClientState.AUTHED);
@@ -327,6 +343,9 @@ public class LoginServerThread extends Thread
 								else
 								{
 									_log.warning("Session key is not correct. Closing connection for account " + wcToRemove.account + ".");
+                                                                        //duplic.add(wcToRemove.account.toString());
+                                                                        //_log.warning("Listahoz adva: " + wcToRemove.account + ".");
+                                                                        sendAccessLevel(wcToRemove.account, -1);
 									// wcToRemove.gameClient.getConnection().sendPacket(new LoginFail(LoginFail.SYSTEM_ERROR_LOGIN_LATER));
 									wcToRemove.gameClient.close(new LoginFail(LoginFail.SYSTEM_ERROR_LOGIN_LATER));
 									_accountsInGameServer.remove(wcToRemove.account);

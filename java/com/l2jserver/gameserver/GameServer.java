@@ -139,6 +139,7 @@ import com.l2jserver.gameserver.model.AutoSpawnHandler;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.PartyMatchRoomList;
 import com.l2jserver.gameserver.model.PartyMatchWaitingList;
+import com.l2jserver.gameserver.model.entity.QuizEvent;
 import com.l2jserver.gameserver.model.entity.Hero;
 import com.l2jserver.gameserver.model.entity.TvTManager;
 import com.l2jserver.gameserver.model.olympiad.Olympiad;
@@ -342,6 +343,7 @@ public class GameServer
 		CharacterRankRewardTable.getInstance();
 		RankRewardTable.getInstance();
 		TopTable.getInstance();
+                QuizEvent.getInstance();
 		ServerSideImage.getInstance().load();
 		//
 		printSection("Vote Individual NPC - by L2PS");
