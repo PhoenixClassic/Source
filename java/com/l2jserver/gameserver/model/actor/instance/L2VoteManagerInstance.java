@@ -90,7 +90,7 @@ public class L2VoteManagerInstance extends L2Npc
 		
 		if (command.startsWith("reward4"))
 		{
-			player.getInventory().addItem("reward", Config.VOTE_REWARD_ID4, Config.VOTE_REWARD_AMOUNT4, player, null);
+			player.getInventory().addItem("reward", 15399, 1, player, null);
 			player.sendMessage("Wise choise!");
 			VoteMain.setHasNotVotedHop(player);
 			VoteMain.setHasNotVotedTop(player);
@@ -133,10 +133,6 @@ public class L2VoteManagerInstance extends L2Npc
 		TextBuilder tb = new TextBuilder("");
 		
 		tb.append("<html><head><title>Vote reward Panel</title></head><body>");
-		tb.append("<center>");
-		tb.append("<table><tr><td align=\"center\"><font color=\"00ff00\">Votting: </font>" + VoteMain.whosVoting() + "</td></tr>");
-		tb.append("<tr><td align=\"center\"><font color=\"00ff00\">Tries left: </font>" + VoteMain.getTries(activeChar) + "</td></tr></table>");
-		tb.append("</center>");
 		if (!VoteMain.hasVotedHop() || !VoteMain.hasVotedTop())
 		{
 			tb.append("<table width=\"250\" cellpadding=\"5\">");
@@ -150,7 +146,7 @@ public class L2VoteManagerInstance extends L2Npc
 			tb.append("</tr>");
 			tb.append("</table>");
 		}
-		if (VoteMain.hasVotedHop() && VoteMain.hasVotedTop())
+		if (VoteMain.hasVotedHop() || VoteMain.hasVotedTop())
 		{
 			tb.append("<table width=\"250\" cellpadding=\"5\" >");
 			tb.append("<tr>");
@@ -179,8 +175,6 @@ public class L2VoteManagerInstance extends L2Npc
 		tb.append("<center>");
 		tb.append("<table><tr><td align=\"center\"><font color=\"00ff00\">Your votes in this month: </font>" + VoteMain.getMonthVotes(activeChar) + "</td></tr>");
 		tb.append("<tr><td align=\"center\"><font color=\"00ff00\">Your total votes in general: </font>" + VoteMain.getTotalVotes(activeChar) + "</td></tr>");
-		tb.append("<tr><td align=\"center\"><font color=\"00ff00\">Players voted this month: </font>" + VoteMain.getBigMonthVotes(activeChar) + "</td></tr>");
-		tb.append("<tr><td align=\"center\"><font color=\"00ff00\">Players voted in general: </font>" + VoteMain.getBigTotalVotes(activeChar) + "</td></tr>");
 		tb.append("<tr><td align=\"center\"><font color=\"FF00FF\">Vote in Hopzone at " + VoteMain.hopCd(activeChar) + "</font></td></tr>");
 		tb.append("<tr><td align=\"center\"><font color=\"FF00FF\">Vote in Topzone at " + VoteMain.topCd(activeChar) + "</font></td></tr></table>");
 		tb.append("</center>");
@@ -264,12 +258,18 @@ public class L2VoteManagerInstance extends L2Npc
 		tb.append("</center>");
 		tb.append("<center>");
 		tb.append("<td valign=\"top\"><font color=\"FF6600\">Choose your reward " + player.getName() + ".</font>");
-		tb.append("<button value=\"Item:" + ItemTable.getInstance().getTemplate(Config.VOTE_REWARD_ID1).getName() + "   Amount:" + Config.VOTE_REWARD_AMOUNT1 + "\" action=\"bypass -h npc_" + getObjectId() + "_reward1\" width=204 height=20>");
-		tb.append("<button value=\"Item:" + ItemTable.getInstance().getTemplate(Config.VOTE_REWARD_ID2).getName() + "   Amount:" + Config.VOTE_REWARD_AMOUNT2 + "\" action=\"bypass -h npc_" + getObjectId() + "_reward2\" width=204 height=20>");
-		tb.append("<button value=\"Item:" + ItemTable.getInstance().getTemplate(Config.VOTE_REWARD_ID3).getName() + "   Amount:" + Config.VOTE_REWARD_AMOUNT3 + "\" action=\"bypass -h npc_" + getObjectId() + "_reward3\" width=204 height=20>");
-		if (VoteMain.getTotalVotes(player) >= Config.EXTRA_REW_VOTE_AM)
+		tb.append("<button value=\" 7 Event Coin \" action=\"bypass -h npc_" + getObjectId() + "_reward1\" width=204 height=20 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\">");
+		tb.append("<button value=\" 150 Glittering Medal \" action=\"bypass -h npc_" + getObjectId() + "_reward2\" width=204 height=20 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\">");
+		tb.append("<button value=\" 5 Giants Mastery Codex \" action=\"bypass -h npc_" + getObjectId() + "_reward3\" width=204 height=20 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\">");
+		if (VoteMain.getTotalVotes(player) >= 3)
 		{
-			tb.append("<font color=\"FF6600\">Due to your votes you now have a 4th choise!</font><br><button value=\"Item:" + ItemTable.getInstance().getTemplate(Config.VOTE_REWARD_ID4).getName() + "   Amount:" + Config.VOTE_REWARD_AMOUNT4 + "\" action=\"bypass -h npc_" + getObjectId() + "_reward4\" width=204 height=20>");
+			tb.append("<font color=\"FF6600\">Due to your votes you now have a 4th choise!</font><br><button value=\"PhoenixClassic Special Belt\" action=\"bypass -h npc_" + getObjectId() + "_reward4\" width=204 height=20 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\">");
+                        tb.append("<br><br>"
+                                + "Belt Stats:<br1>"
+                                + "3% P.Atk<br1>"
+                                + "3% M.Atk<br1>"
+                                + "3% P.AtkSpd<br1>"
+                                + "3% M.AtkSpd<br1>");
 		}
 		tb.append("</center>");
 		

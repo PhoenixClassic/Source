@@ -28,6 +28,7 @@ import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.communitybbs.CommunityBoard;
 import com.l2jserver.gameserver.datatables.AdminTable;
+import com.l2jserver.gameserver.datatables.ClassListData;
 import com.l2jserver.gameserver.handler.AdminCommandHandler;
 import com.l2jserver.gameserver.handler.BypassHandler;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
@@ -52,8 +53,14 @@ import com.l2jserver.gameserver.network.serverpackets.ConfirmDlg;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.scripting.scriptengine.events.RequestBypassToServerEvent;
 import com.l2jserver.gameserver.scripting.scriptengine.listeners.talk.RequestBypassToServerListener;
+import com.l2jserver.gameserver.datatables.SkillTable;
+import com.l2jserver.gameserver.model.skills.L2Skill;
+import com.l2jserver.gameserver.model.skills.L2SkillType;
+import com.l2jserver.gameserver.model.zone.ZoneId;
 import com.l2jserver.gameserver.util.GMAudit;
 import com.l2jserver.gameserver.util.Util;
+import java.util.Collection;
+import javolution.text.TextBuilder;
 
 /**
  * This class ...
@@ -151,6 +158,136 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			{
 				comeHere(activeChar);
 			}
+                        
+        else if(_command.startsWith("buff")){
+           String[] val = _command.split(" ");
+            String x = val[1];
+            String y = val[2];
+            int lvl = Integer.parseInt(y);
+            int id = Integer.parseInt(x);
+            L2PcInstance target = null;
+           
+            if(activeChar.getTarget() instanceof L2PcInstance)
+            target = (L2PcInstance) activeChar.getTarget();
+            
+            if(!activeChar.isInsideRadius(target, 150, false, false)){
+                activeChar.sendMessage("Out of range!");
+                return;
+            }
+           
+            if(target == null)
+              return;
+            
+            if (!target.isSellBuff())
+                    return;
+            
+            if(!target.isInsideZone(ZoneId.PEACE)){
+               activeChar.sendMessage("The buffer is not in peaceful zone!");
+               return; 
+            }
+              
+           
+            if(activeChar.getInventory().getItemByItemId(57) == null || activeChar.getInventory().getItemByItemId(57).getCount() < ((L2PcInstance) activeChar.getTarget()).getBuffPrize()){
+              activeChar.sendMessage("Not enough adena!");
+              return;
+           }
+           
+       
+            try{
+            L2Skill s = SkillTable.getInstance().getInfo(id, lvl);
+            s.getEffects(activeChar, activeChar);
+            activeChar.sendMessage("Buff activated: "+s.getName());
+            activeChar.getInventory().destroyItemByItemId("", 57, target.getBuffPrize(), activeChar, null);
+            target.getInventory().addItem("", 57, target.getBuffPrize(), target, null);
+            TextBuilder tb = new TextBuilder();
+            NpcHtmlMessage n = new NpcHtmlMessage(0);
+           
+            tb.append("<html><body>");
+            tb.append("<br><br>");
+            tb.append("<center>Hello in my Buff Shop!</center>");
+            tb.append("<br><center>All buff price: <font color=LEVEL>"+target.getBuffPrize()+"</font> Adena!</center><br><center><table><tr>");
+           
+           
+               Collection<L2Skill> skills = target.getAllSkills();
+            FastList<L2Skill> ba = new FastList<L2Skill>();
+           
+            for(L2Skill skill : skills){
+              if(skill == null)
+                  continue;
+             
+             
+              if(skill.getSkillType() == L2SkillType.BUFF && skill.isActive() && skill.getId() != 970 && skill.getId() != 357 && skill.getId() != 1323 && skill.getId() != 327 && skill.getId() != 1325 && skill.getId() != 1326 && skill.getId() != 1327 && skill.getId() != 1540 && skill.getId() != 1533 && skill.getId() != 1412 && skill.getId() != 1411 && skill.getId() !=1532 && skill.getId() != 1540 && skill.getId() !=1520 && skill.getId() !=1521 && skill.getId() !=1522 && skill.getId() != 1506 && skill.getId() != 1507 && skill.getId() != 1543 && skill.getId() !=988 && skill.getId() !=989 && skill.getId() !=1430 && skill.getId() != 1217 && skill.getId() != 1219 && skill.getId() !=1531 && skill.getId() !=1229 && skill.getId() !=1256 && skill.getId() !=1427 && skill.getId() != 123 && skill.getId() !=77 && skill.getId() != 91 && skill.getId() != 110 && skill.getId() != 112 && skill.getId() != 913 && skill.getId() != 230)
+                  ba.add(skill);
+            }
+           
+            for(L2Skill p : ba){
+                int enc = p.getLevel();
+                    if (enc < 100)
+                        enc = 0;
+                    if (enc > 100 && enc <200)
+                            enc = enc-100;
+                    if (enc > 200 && enc < 300)
+                            enc = enc-200;
+                    if (enc > 300)
+                            enc = enc-300;
+                if (p.getId() == 1517)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill1499\"></td>");
+                else if (p.getId() == 1518)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill1502\"></td>");
+                else if (p.getId() < 1000)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill0"+p.getId()+"\"></td>");
+                else
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill"+p.getId()+"\"></td>");
+                tb.append("<td><button value=\""+p.getName()+" +" + enc +"\" action=\"bypass -h buff "+p.getId()+" "+p.getLevel()+"\" width=200 height=32 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>");
+                if (p.getId() == 1517)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill1499\"></td></tr><tr>");
+                if (p.getId() == 1518)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill1502\"></td></tr><tr>");
+                else if (p.getId() < 1000)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill0"+p.getId()+"\"></td></tr><tr>");
+                else
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill"+p.getId()+"\"></td></tr><tr>");
+            }
+           
+            tb.append("</tr></table></center></body></html>");
+           
+            n.setHtml(tb.toString());
+            activeChar.sendPacket(n);
+            }
+            catch(Exception e){
+              e.printStackTrace();
+            }
+        }
+        else if(_command.startsWith("actr")){
+            String l = _command.substring(5);
+           
+            int p = 0;
+
+            p = Integer.parseInt(l);
+           
+           
+            if(p == 0)
+              return;
+           
+            if(p > 2000000000){
+              activeChar.sendMessage("Too expensive!");
+              return;
+            }
+           
+              activeChar.setBuffPrize(p);
+              activeChar.sitDown();
+              activeChar.setSellBuff(true);
+
+              activeChar.setOldTitle(activeChar.getTitle());
+              activeChar.setOldNameColor(activeChar.getAppearance().getNameColor());
+              /*activeChar.getAppearance().setNameColor(0x55155);*/
+              activeChar.getAppearance().setNameColor(99, 22, 11);
+              activeChar.setTitle(ClassListData.getInstance().getClass(activeChar.getClassId()).getClassName());
+              activeChar.broadcastUserInfo();
+              activeChar.broadcastTitleInfo();
+        }
+
+                        
 			else if (_command.startsWith("npc_"))
 			{
 				if (!activeChar.validateBypass(_command))

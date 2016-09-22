@@ -226,6 +226,7 @@ public class GameServer
 		{
 			AnnounceOnline.getInstance();
 		}
+                AnnounceVote.getInstance();
 		printSection("World");
 		// start game time control early
 		GameTimeController.init();

@@ -1295,7 +1295,7 @@ public final class L2ItemInstance extends L2Object
 	{
 		decreaseMana(resetConsumingMana, 1);
 	}
-	
+	        
 	/**
 	 * Decreases the mana of this shadow item, sends a inventory update schedules a new consumption task if non is running optionally one could force a new task
 	 * @param resetConsumingMana if forces a new consumption task if item is equipped

@@ -781,6 +781,29 @@ public final class L2GameClient extends MMOClient<MMOConnection<L2GameClient>> i
 						_logAccounting.log(record);
 						return;
 					}
+                                        if (getActiveChar().isSellBuff())
+                                        {
+                                            getActiveChar().leaveParty();
+                                            	if (getActiveChar().hasSummon())
+						{
+							getActiveChar().getSummon().setRestoreSummon(true);
+							
+							getActiveChar().getSummon().unSummon(getActiveChar());
+							// Dead pet wasn't unsummoned, broadcast npcinfo changes (pet will be without owner name - means owner offline)
+							if (getActiveChar().getSummon() != null)
+							{
+								getActiveChar().getSummon().broadcastNpcInfo(0);
+							}
+						}
+                                                final LogRecord record = new LogRecord(Level.INFO, "Entering offline buff mode");
+						record.setParameters(new Object[]
+						{
+							L2GameClient.this
+						});
+						_logAccounting.log(record);
+						return;
+                                            
+                                        }
 					fast = !getActiveChar().isInCombat() && !getActiveChar().isLocked();
 				}
 				cleanMe(fast);

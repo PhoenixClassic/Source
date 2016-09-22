@@ -41,6 +41,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Level;
 
+import javolution.text.TextBuilder;
 import javolution.util.FastList;
 import javolution.util.FastMap;
 import javolution.util.FastSet;
@@ -650,6 +651,11 @@ public final class L2PcInstance extends L2Playable
 	
 	private boolean _noble = false;
 	private boolean _hero = false;
+        
+        private boolean _sellbuff = false;
+        private int _buffprize = 0;
+        private String _oldtitle = "";
+        private int _oldnamecolor = 0;  
 	
 	/** The L2FolkInstance corresponding to the last Folk which one the player talked. */
 	private L2Npc _lastFolkNpc = null;
@@ -3413,6 +3419,8 @@ public final class L2PcInstance extends L2Playable
 	 */
 	public void standUp()
 	{
+                if(isSellBuff())
+                    return;     
 		if (L2Event.isParticipant(this) && getEventStatus().eventSitForced)
 		{
 			sendMessage("A dark force beyond your mortal understanding makes your knees to shake when you try to stand up...");
@@ -5514,6 +5522,69 @@ public final class L2PcInstance extends L2Playable
 		
 		// Target the new L2Object (add the target to the L2PcInstance _target, _knownObject and L2PcInstance to _KnownObject of the L2Object)
 		super.setTarget(newTarget);
+                
+
+      L2PcInstance t = null;
+      if(newTarget instanceof L2PcInstance)
+        t = (L2PcInstance) newTarget;
+     
+      if(t != null){
+        if(t.isSellBuff() && t != this){
+            TextBuilder tb = new TextBuilder();
+            NpcHtmlMessage n = new NpcHtmlMessage(0);
+           
+            tb.append("<html><body>");
+            tb.append("<br><br>");
+            tb.append("<center>Hello in my Buff Shop!</center>");
+            tb.append("<br><center>All buff price: <font color=LEVEL>"+t.getBuffPrize()+"</font> Adena! </center><br><center><table><tr>");
+           
+            Collection<L2Skill> skills = t.getAllSkills();
+            FastList<L2Skill> ba = new FastList<L2Skill>();
+           
+            for(L2Skill s : skills){
+              if(s == null)
+                  continue;
+             
+             
+              if(s.getSkillType() == L2SkillType.BUFF && s.isActive() && s.getId() != 970 && s.getId() != 357 && s.getId() != 1323 && s.getId() != 327 && s.getId() != 1325 && s.getId() != 1326 && s.getId() != 1327 && s.getId() != 1540 && s.getId() != 1533 && s.getId() != 1412 && s.getId() != 1411 && s.getId() !=1532 && s.getId() != 1540 && s.getId() !=1520 && s.getId() !=1521 && s.getId() !=1522 && s.getId() != 1506 && s.getId() != 1507 && s.getId() != 1543 && s.getId() !=988 && s.getId() !=989 && s.getId() !=1430 && s.getId() != 1217 && s.getId() != 1219 && s.getId() !=1531 && s.getId() !=1229 && s.getId() !=1256 && s.getId() !=1427 && s.getId() != 123 && s.getId() !=77 && s.getId() != 91 && s.getId() != 110 && s.getId() != 112 && s.getId() != 913 && s.getId() != 230)
+                  ba.add(s);
+            }
+           
+            for(L2Skill p : ba){
+                int enc = p.getLevel();
+                    if (enc < 100)
+                        enc = 0;
+                    if (enc > 100 && enc <200)
+                            enc = enc-100;
+                    if (enc > 200 && enc < 300)
+                            enc = enc-200;
+                    if (enc > 300)
+                            enc = enc-300;
+                if (p.getId() == 1517)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill1499\"></td>");
+                else if (p.getId() == 1518)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill1502\"></td>");
+                else if (p.getId() < 1000)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill0"+p.getId()+"\"></td>");
+                else
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill"+p.getId()+"\"></td>");
+                tb.append("<td><button value=\""+p.getName()+" +" + enc +"\" action=\"bypass -h buff "+p.getId()+" "+p.getLevel()+"\" width=200 height=32 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>");
+                if (p.getId() == 1517)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill1499\"></td></tr><tr>");
+                if (p.getId() == 1518)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill1502\"></td></tr><tr>");
+                else if (p.getId() < 1000)
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill0"+p.getId()+"\"></td></tr><tr>");
+                else
+                    tb.append("<td><img width=32 height=32 src=\"Icon.skill"+p.getId()+"\"></td></tr><tr>");
+            }
+           
+            tb.append("</tr></table></center></body></html>");
+           
+            n.setHtml(tb.toString());
+            sendPacket(n);
+        }
+      }
 	}
 	
 	/**
@@ -11070,6 +11141,43 @@ public final class L2PcInstance extends L2Playable
 		return true;
 	}
 	
+       public boolean isSellBuff(){
+       return _sellbuff;
+      }
+ 
+    public void setSellBuff(boolean j){
+      _sellbuff = j;
+    }
+
+    public int getBuffPrize(){
+      return _buffprize;
+    }
+   
+    public void setBuffPrize(int x){
+      _buffprize = x;
+    }
+   
+    public String getOldTitle()
+    {
+       return _oldtitle;
+    }
+   
+    public int getOldNameColor()
+    {
+       return _oldnamecolor;
+    }
+   
+    public void setOldTitle(String title)
+    {
+       _oldtitle = title;
+    }
+   
+    public void setOldNameColor(int color)
+    {
+       _oldnamecolor = color;
+    }
+   
+        
 	public boolean isNoble()
 	{
 		return _noble;

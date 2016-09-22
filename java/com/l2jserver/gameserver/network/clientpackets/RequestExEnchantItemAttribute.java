@@ -73,7 +73,7 @@ public class RequestExEnchantItemAttribute extends L2GameClientPacket
                         //_log.log(Level.WARNING, "listsize " + Integer.toString(list.size()));
                         if(list.size()!=m && list.get(m)==l)
                         {
-                            int log = map.get(list.get(m));
+                            //int log = map.get(list.get(m));
                             //_log.log(Level.WARNING, "oldvalue " + Integer.toString(log));
                             //_log.log(Level.WARNING, "newvalue " + Integer.toString(i));
                             map.put(l,i);

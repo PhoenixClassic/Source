@@ -28,20 +28,18 @@ import java.util.Date;
 import com.l2jserver.Config;
 import com.l2jserver.L2DatabaseFactory;
 import com.l2jserver.gameserver.ThreadPoolManager;
-//import com.l2jserver.gameserver.instancemanager.event_engine.Configuration;
 import com.l2jserver.gameserver.instancemanager.event_engine.io.Out;
 import com.l2jserver.gameserver.model.L2World;
-//import static com.l2jserver.gameserver.model.actor.L2Character._log;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.taskmanager.tasks.TaskMonthlyResetTask;
 import com.l2jserver.gameserver.taskmanager.tasks.TaskTriesResetTask;
-//import static java.util.logging.Level.WARNING;
 
 public class VoteMain
 {
 	private static boolean hasVotedHop;
 	private static boolean hasVotedTop;
-        private static int lastreward = getHopZoneVotes()+getTopZoneVotes()+10;
+        private static int lastreward;
+        private static int lastrewarda;
 	
 	public VoteMain()
 	{
@@ -49,10 +47,11 @@ public class VoteMain
 	
 	public static void load()
 	{
-		System.out.println("Vote Individual Reward System Started Successfully.");
 		TaskTriesResetTask.getInstance();
 		TaskMonthlyResetTask.getInstance();
-                rewardadd();
+                lastrewarda = getHopZoneVotes()+getTopZoneVotes();
+                lastreward = getHopZoneVotes()+getTopZoneVotes()+6;
+                System.out.println("Vote Individual Reward System Started Successfully. Curr: " + Integer.toString(lastrewarda)+ " Next: " + Integer.toString(lastreward));
 	}
 	
 	protected static int getHopZoneVotes()
@@ -628,7 +627,6 @@ public class VoteMain
 		{
 			e.printStackTrace();
 		}
-                rewardadd();
 		return bigTotalVotes;
 	}
 	
@@ -704,11 +702,11 @@ public class VoteMain
         
         private static void rewardadd()
         {
-            int reward = getHopZoneVotes()+getTopZoneVotes();            
-            //_log.log(WARNING, "Reward: " + Integer.toString(reward));
+            int reward = getHopZoneVotes()+getTopZoneVotes();
+            lastrewarda=reward;
             if (reward >= lastreward ){
-   //                     lastreward = reward;
-                        lastreward=lastreward+20;
+                        lastreward = reward;
+                        lastreward=lastreward+10;
                   	for (L2PcInstance onlinePlayer : L2World.getInstance().getAllPlayersArray())
 			{
 				if (onlinePlayer.isOnline() && ((onlinePlayer.getClient() != null) && !onlinePlayer.getClient().isDetached()))
@@ -718,7 +716,11 @@ public class VoteMain
 				}
 			}
                         Out.broadcastCreatureSay("[VoteReward] Vote reward arrived. Check your inventory!");
-                       // _log.log(WARNING, "Lastreward: " + Integer.toString(lastreward));
             }              
+        }
+        public static int getlastreward()
+        {
+            rewardadd();
+            return lastreward-lastrewarda;
         }
 }

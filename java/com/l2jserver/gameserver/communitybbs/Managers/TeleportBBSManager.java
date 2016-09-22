@@ -22,12 +22,19 @@ import java.util.StringTokenizer;
 import javolution.text.TextBuilder;
 
 import com.l2jserver.L2DatabaseFactory;
+import static com.l2jserver.gameserver.model.actor.L2Character._log;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.zone.ZoneId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.ShowBoard;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.*;
+import java.util.logging.Level;
+import static java.util.logging.Level.WARNING;
 
 /**
  * @author RobíkBobík
@@ -57,6 +64,10 @@ public class TeleportBBSManager extends BaseBBSManager
 	}
 	
 	public String points[][];
+        
+        public Map <Integer, Long> reuse = new HashMap<>();
+        
+        public List<Integer> charlist = new ArrayList<>();
 	
 	@Override
 	public void parsecmd(String command, L2PcInstance activeChar)
@@ -102,15 +113,47 @@ public class TeleportBBSManager extends BaseBBSManager
 			activeChar.sendPacket(new ShowBoard(null, "103"));
 		}
 	}
-	
+        
+        private void map(L2PcInstance activeChar, long time)
+        {
+                for(int m=0; m<=charlist.size(); m++){
+                        if(charlist.size()!=m && charlist.get(m)==activeChar.getObjectId())
+                        {
+                            reuse.put(activeChar.getObjectId(), time); 
+                            return;
+                        }
+                        if(charlist.size()==m)
+                        {
+                            reuse.put(activeChar.getObjectId(), time); 
+                            charlist.add(activeChar.getObjectId());
+                            return;
+                        }
+                }
+        }
 	private void goTp(L2PcInstance activeChar, int xTp, int yTp, int zTp, int priceTp)
 	{
+                Long time = System.currentTimeMillis();
+                if (reuse.isEmpty())
+                {
+                    reuse.put(activeChar.getObjectId(), time);
+                    charlist.add(activeChar.getObjectId());
+                }
+                if (!charlist.contains(activeChar.getObjectId()))
+                {
+                        map(activeChar,time);
+                }
+                Long reusetime = reuse.get(activeChar.getObjectId());
+                if (((time-reusetime) < 300000) && priceTp==100000)
+                {
+                        int re = (int) (300-((time-reusetime)/1000));
+                    	activeChar.sendMessage("Teleportation is on reuse. " + Integer.toString(re) + " seconds left.");
+			return;
+                }
 		if (activeChar.isDead() || activeChar.isAlikeDead() || activeChar.isCastingNow() || activeChar.isInCombat() || activeChar.isAttackingNow() || activeChar.isInOlympiadMode() || activeChar.isInJail() || activeChar.isFlying() || (activeChar.getKarma() > 0) || activeChar.isInDuel())
 		{
 			activeChar.sendMessage("Teleportation is not possible now.");
 			return;
 		}
-		
 		if ((priceTp > 0) && (activeChar.getAdena() < priceTp))
 		{
 			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_NOT_ENOUGH_ADENA));
@@ -120,6 +163,7 @@ public class TeleportBBSManager extends BaseBBSManager
 		{
 			activeChar.reduceAdena("Teleport", priceTp, activeChar, true);
 		}
+                map(activeChar,time);
 		activeChar.teleToLocation(xTp, yTp, zTp);
 	}
 	
